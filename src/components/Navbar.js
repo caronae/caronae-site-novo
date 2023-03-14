@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="navbar-item">Aplicativo</div>
         <div className="navbar-item">FAQ</div>
       </div>  
-      <button className="navbar-dl-button"></button>
+      <button className="navbar-dl-button">Baixe o app</button>
     </div>
   );
 }

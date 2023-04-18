@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import IconForm from './components/IconForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='icon-form'>
+    <IconForm src={require('./assets/Jeep.png')} backgroundColor='#ED8024' wide />
+    </div>
+    <div className='icon-form'>
+    <IconForm src={require('./assets/nature-people.png')} backgroundColor='#17B270' shadow='#6E361F' />
+    </div>
+    <div className='icon-form'>
+    <IconForm src={require('./assets/criancas-carro.png')} image/>
+    </div>
   </React.StrictMode>
 );
 

@@ -9,7 +9,7 @@ function IconForm(props) {
             height: height, 
             backgroundColor: backgroundColor, 
             borderRadius: '200px', 
-            padding: wide ? '10px 75px' : (image ? '0' : '10px'), 
+            padding: wide ? '10px 32px' : (image ? '0' : '10px'), 
             boxShadow: `14px 0 0 ${shadow}`
         }} />
     )

@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='icon-form'>
-    <IconForm src={require('./assets/Jeep.png')} backgroundColor='#ED8024' wide />
+    <IconForm src={require('./assets/Jeep.png')} widht='153px'  height='74px' backgroundColor='#ED8024' wide/>
     </div>
     <div className='icon-form'>
     <IconForm src={require('./assets/nature-people.png')} backgroundColor='#17B270' shadow='#6E361F' />

@@ -2,20 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import IconForm from './components/IconForm';
+import HeroSection from './components/HeroSection'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='icon-form'>
-    <IconForm src={require('./assets/Jeep.png')} widht='153px'  height='74px' backgroundColor='#ED8024' wide/>
-    </div>
-    <div className='icon-form'>
-    <IconForm src={require('./assets/nature-people.png')} backgroundColor='#17B270' shadow='#6E361F' />
-    </div>
-    <div className='icon-form'>
-    <IconForm src={require('./assets/criancas-carro.png')} image/>
-    </div>
+      <HeroSection/>
   </React.StrictMode>
 );
 

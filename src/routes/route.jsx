@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import FAQ from "../pages/FAQ";
+import History from "../pages/History";
+import MobileApp from "../pages/MobileApp";
 
 const AppRouter = () => {
     return (

@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.bd788485.css",
-    "main.js": "/caronae-site-novo/static/js/main.450a40ec.js",
+    "main.css": "/caronae-site-novo/static/css/main.c3d19cb0.css",
+    "main.js": "/caronae-site-novo/static/js/main.7b520edb.js",
+    "static/media/criancas-carro.png": "/caronae-site-novo/static/media/criancas-carro.bf77c5e0dc50fb68f24f.png",
+    "static/media/Jeep.png": "/caronae-site-novo/static/media/Jeep.494b115d242d42ced757.png",
     "index.html": "/caronae-site-novo/index.html",
-    "main.bd788485.css.map": "/caronae-site-novo/static/css/main.bd788485.css.map",
-    "main.450a40ec.js.map": "/caronae-site-novo/static/js/main.450a40ec.js.map"
+    "main.c3d19cb0.css.map": "/caronae-site-novo/static/css/main.c3d19cb0.css.map",
+    "main.7b520edb.js.map": "/caronae-site-novo/static/js/main.7b520edb.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd788485.css",
-    "static/js/main.450a40ec.js"
+    "static/css/main.c3d19cb0.css",
+    "static/js/main.7b520edb.js"
   ]
 }

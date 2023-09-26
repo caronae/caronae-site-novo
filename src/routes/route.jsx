@@ -7,7 +7,7 @@ import MobileApp from "../pages/MobileApp";
 
 const AppRouter = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
@@ -15,7 +15,7 @@ const AppRouter = () => {
                 <Route path="/history" element={<History />} />
                 <Route path="/app" element={<MobileApp />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/caronae-site-novo/static/css/main.bd788485.css",
-    "main.js": "/caronae-site-novo/static/js/main.b9217172.js",
+    "main.js": "/caronae-site-novo/static/js/main.450a40ec.js",
     "index.html": "/caronae-site-novo/index.html",
     "main.bd788485.css.map": "/caronae-site-novo/static/css/main.bd788485.css.map",
-    "main.b9217172.js.map": "/caronae-site-novo/static/js/main.b9217172.js.map"
+    "main.450a40ec.js.map": "/caronae-site-novo/static/js/main.450a40ec.js.map"
   },
   "entrypoints": [
     "static/css/main.bd788485.css",
-    "static/js/main.b9217172.js"
+    "static/js/main.450a40ec.js"
   ]
 }

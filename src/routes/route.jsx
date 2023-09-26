@@ -9,7 +9,7 @@ const AppRouter = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home />} basename={process.env.PUBLIC_URL} />
                 <Route path="/about" element={<About />} />
                 <Route path="/faq" element={<FAQ />} />
                 <Route path="/history" element={<History />} />

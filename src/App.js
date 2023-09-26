@@ -1,7 +1,7 @@
 import AppRouter from "./routes/route";
 
 const App = () => {
-    return (
+    return (    
         <AppRouter/>
     );
 };

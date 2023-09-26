@@ -1,10 +1,10 @@
-import logo from 'assets/caronae-logo.png'
-import appStore from 'assets/download-app-store.png'
-import googlePlay from 'assets/download-google-play.png'
-import linhaColorida from 'assets/linha-colorida.png'
+import logo from '../../assets/caronae-logo.png'
+import appStore from '../../assets/download-app-store.png'
+import googlePlay from '../../assets/download-google-play.png'
+import linhaColorida from '../../assets/linha-colorida.png'
 import './styles.css'
 
-export default function Footer(){
+export default function Footer() {
     return(
     <body>
         <main> 

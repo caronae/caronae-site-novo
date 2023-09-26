@@ -1,4 +1,4 @@
-import './IconForm.css'
+// import './IconForm.css'
 
 function IconForm(props) {
     const { alt, src, width, height, backgroundColor, shadow, wide, image } = props

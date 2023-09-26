@@ -1,12 +1,9 @@
-import './App.css';
+import AppRouter from "./routes/route";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (    
+        <AppRouter/>
+    );
+};
 
 export default App;

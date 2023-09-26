@@ -1,7 +1,6 @@
-import './Chip.css';
+import './styles.css';
 
 const Chip = (props) => {
-    
     return ( 
         <div className="chip" style={{backgroundColor: props.backgroundColor, height: props.height, width: props.width, padding: props.padding, background: props.background, borderRadius: props.borderRadius}}>
             <div className="chipDiv">

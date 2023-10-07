@@ -1,0 +1,36 @@
+
+.apoiadoresTitulo{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 54px;
+}
+.apoiadoresParagrafo{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    size: 20px;
+    font-weight: 400;
+}
+.logosLinha1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logosLinha1 > img{
+    padding: 2vw 4vw 5px 4vw;
+}
+
+.logosLinha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logosLinha2 > img{
+    padding: 0vw 4vw 0vw 4vw;
+}

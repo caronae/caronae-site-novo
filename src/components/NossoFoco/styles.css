@@ -5,11 +5,11 @@
 }
 
 .container {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
 .chipArea {
@@ -47,7 +47,7 @@
 }
 
 .text {
-    font-family: 'Karla';
+    font-family: Karla;
     font-style: normal;
     font-weight: 700;
     font-size: 52px;

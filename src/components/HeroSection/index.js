@@ -17,14 +17,14 @@ const HeroSection = () => {
                 <div className="text">
                     <div className='row'>
                         <span className="main-text">Faça da sua</span>
-                        <IconForm src={criancasCarro} image/> 
+                        <IconForm src={criancasCarro} margin="10px" image/> 
                         <span className="main-text">carona</span>
                     </div>
                     <div className='row'>
                         <span className="main-text">uma ação</span>
-                        <IconForm src={carro} widht='153px'  height='74px' backgroundColor='#ED8024' wide/>
+                        <IconForm src={carro} widht='153px'  height='74px' margin="10px" backgroundColor='#ED8024' wide/>
                         <span className="main-text">sustentável</span>
-                        <IconForm src={naturalPeople} backgroundColor='#17B270' shadow='#6E361F' />
+                        <IconForm src={naturalPeople} margin="10px" backgroundColor='#17B270' shadow='#6E361F' />
                     </div>
                     <p className='subtext'>
                     Economize enquanto protege o planeta!

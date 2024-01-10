@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     line-height: 54px;
+    margin-top: 200px;
 }
 .apoiadoresParagrafo{
     font-family: 'Lato', sans-serif;
@@ -19,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
 
 }
 .logosLinha1 > img{
@@ -29,6 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .logosLinha2 > img{

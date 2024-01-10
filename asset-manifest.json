@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.6334bce1.css",
-    "main.js": "/caronae-site-novo/static/js/main.121cc427.js",
+    "main.css": "/caronae-site-novo/static/css/main.34527031.css",
+    "main.js": "/caronae-site-novo/static/js/main.646bedca.js",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
     "static/media/criancas-carro.png": "/caronae-site-novo/static/media/criancas-carro.bf77c5e0dc50fb68f24f.png",
     "static/media/Jeep.png": "/caronae-site-novo/static/media/Jeep.494b115d242d42ced757.png",
@@ -12,11 +12,11 @@
     "static/media/logo-ufrj.png": "/caronae-site-novo/static/media/logo-ufrj.888ddabbac04cf0a8d9a.png",
     "index.html": "/caronae-site-novo/index.html",
     "static/media/mail-icon.svg": "/caronae-site-novo/static/media/mail-icon.19044f560f1aa47540b5c61151d8ba3b.svg",
-    "main.6334bce1.css.map": "/caronae-site-novo/static/css/main.6334bce1.css.map",
-    "main.121cc427.js.map": "/caronae-site-novo/static/js/main.121cc427.js.map"
+    "main.34527031.css.map": "/caronae-site-novo/static/css/main.34527031.css.map",
+    "main.646bedca.js.map": "/caronae-site-novo/static/js/main.646bedca.js.map"
   },
   "entrypoints": [
-    "static/css/main.6334bce1.css",
-    "static/js/main.121cc427.js"
+    "static/css/main.34527031.css",
+    "static/js/main.646bedca.js"
   ]
 }

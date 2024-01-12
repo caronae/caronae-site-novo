@@ -4,6 +4,7 @@
     border-radius: 200px;
     padding: 28px 50px;
     border: 0;
+    text-align: center;
 }
 
 .chipDiv {
@@ -11,8 +12,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     height: 50px;
-    gap: 24px;
+    
 }
 
 .chipText {

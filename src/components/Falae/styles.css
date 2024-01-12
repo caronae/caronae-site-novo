@@ -9,7 +9,8 @@
     margin-right: 139px;
     margin-bottom: 300px;
     margin-top: 200px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -109,4 +110,7 @@
 .falae-img {
     width: 345px;
     object-fit: cover;
+}
+.texts{
+    margin-right: 10vw;
 }

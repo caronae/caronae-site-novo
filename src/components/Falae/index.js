@@ -8,7 +8,7 @@ import mailIcon from '../../assets/mail-icon.svg';
 const Falae = () => {
     return (
     <div className="falae-container">
-        <div>
+        <div className='texts'>
             <h2 className="falae-heading">Falaê</h2>
             <p className="falae-text">
                 Aceitamos sugestões de funcionalidades, ideias e feedback para o aplicativo. Sinta-se à vontade para entrar em contato através do nosso e-mail.
@@ -22,7 +22,7 @@ const Falae = () => {
                             label="Entrar em contato" />
             </div>
         </div>
-        <div>
+        <div className='images'>
             <div className="falae-rectangle"></div>
             <div className="falae-icon-img">
                 <div className="falae-icon-container">

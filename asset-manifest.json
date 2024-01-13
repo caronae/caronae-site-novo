@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.fbe38e7a.css",
+    "main.css": "/caronae-site-novo/static/css/main.63f139b4.css",
     "main.js": "/caronae-site-novo/static/js/main.a551ad81.js",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
     "static/media/foto-amigos.png": "/caronae-site-novo/static/media/foto-amigos.2ef3956520fb53c46745.png",
@@ -13,11 +13,11 @@
     "static/media/logo-ufrj.png": "/caronae-site-novo/static/media/logo-ufrj.888ddabbac04cf0a8d9a.png",
     "index.html": "/caronae-site-novo/index.html",
     "static/media/mail-icon.svg": "/caronae-site-novo/static/media/mail-icon.19044f560f1aa47540b5c61151d8ba3b.svg",
-    "main.fbe38e7a.css.map": "/caronae-site-novo/static/css/main.fbe38e7a.css.map",
+    "main.63f139b4.css.map": "/caronae-site-novo/static/css/main.63f139b4.css.map",
     "main.a551ad81.js.map": "/caronae-site-novo/static/js/main.a551ad81.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbe38e7a.css",
+    "static/css/main.63f139b4.css",
     "static/js/main.a551ad81.js"
   ]
 }

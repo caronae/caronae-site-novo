@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 131px;
-    margin-right: 139px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 300px;
     margin-top: 200px;
     justify-content: center;

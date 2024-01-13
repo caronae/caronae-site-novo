@@ -77,7 +77,7 @@
 .textButton{
     font-family: 'Karla', sans-serif;
     font-size: 19px;
-    padding-left: 40px;
+    margin-left: 40px;
     color: #2B388A;
     text-decoration: none;
     font-weight: 800;

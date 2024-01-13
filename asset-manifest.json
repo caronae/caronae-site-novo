@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.63f139b4.css",
-    "main.js": "/caronae-site-novo/static/js/main.a551ad81.js",
+    "main.css": "/caronae-site-novo/static/css/main.04169bbc.css",
+    "main.js": "/caronae-site-novo/static/js/main.6040505c.js",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
+    "static/media/ponto-caronae.png": "/caronae-site-novo/static/media/ponto-caronae.5b2d8cbeaba2001e6251.png",
     "static/media/foto-amigos.png": "/caronae-site-novo/static/media/foto-amigos.2ef3956520fb53c46745.png",
     "static/media/criancas-carro.png": "/caronae-site-novo/static/media/criancas-carro.bf77c5e0dc50fb68f24f.png",
     "static/media/Jeep.png": "/caronae-site-novo/static/media/Jeep.494b115d242d42ced757.png",
@@ -13,11 +14,11 @@
     "static/media/logo-ufrj.png": "/caronae-site-novo/static/media/logo-ufrj.888ddabbac04cf0a8d9a.png",
     "index.html": "/caronae-site-novo/index.html",
     "static/media/mail-icon.svg": "/caronae-site-novo/static/media/mail-icon.19044f560f1aa47540b5c61151d8ba3b.svg",
-    "main.63f139b4.css.map": "/caronae-site-novo/static/css/main.63f139b4.css.map",
-    "main.a551ad81.js.map": "/caronae-site-novo/static/js/main.a551ad81.js.map"
+    "main.04169bbc.css.map": "/caronae-site-novo/static/css/main.04169bbc.css.map",
+    "main.6040505c.js.map": "/caronae-site-novo/static/js/main.6040505c.js.map"
   },
   "entrypoints": [
-    "static/css/main.63f139b4.css",
-    "static/js/main.a551ad81.js"
+    "static/css/main.04169bbc.css",
+    "static/js/main.6040505c.js"
   ]
 }

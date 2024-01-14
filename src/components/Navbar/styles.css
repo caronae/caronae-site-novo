@@ -32,7 +32,7 @@
   bottom: -50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  content: "";
+  content: '';
   margin-top: 4;
   border: 0;
   padding: 0;
@@ -43,31 +43,32 @@
 }
 
 .navbar-dl-button {
-    display: inline-block;
-    min-width: 121px;
-    max-width: 121px;
-    height: 51px;
-    border: none;
-    border: 2px solid #ba447d;
-    border-radius: 8px;
-    border-color: #ba447d;
-    padding: 0;
-    margin-right: 40px;
-    text-decoration: none;
-    background: #fff;
-    color: #ba447d;
-    font-family: Karla, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    font-style: bold;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  display: inline-block;
+  min-width: 121px;
+  max-width: 121px;
+  height: 51px;
+  border: none;
+  border: 2px solid #ba447d;
+  border-radius: 8px;
+  border-color: #ba447d;
+  padding: 0;
+  margin-right: 40px;
+  text-decoration: none;
+  background: #fff;
+  color: #ba447d;
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: bold;
+  cursor: pointer;
+  text-align: center;
+  transition:
+    background 250ms ease-in-out,
+    transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .navbar-dl-button:active {
-    transform: scale(0.97);
+  transform: scale(0.97);
 }

@@ -1,118 +1,124 @@
 .solucoes-do-caronae {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 77rem;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 77rem;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.linha-1, .linha-2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+.linha-1,
+.linha-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 .linha-1 {
-    min-height: 235px;
+  min-height: 235px;
 }
 
 .linha-2 {
-    min-height: 304px;
+  min-height: 304px;
 }
 
-.titulo, .pontos-de-carona, .video-embutido, .ponto-img, .info-app {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
+.titulo,
+.pontos-de-carona,
+.video-embutido,
+.ponto-img,
+.info-app {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
 }
 
 .titulo {
-    color: var(--Neutral-color-neutral-darkest, #171717);
-    justify-content: center;
-    max-width: 420px;
+  color: var(--Neutral-color-neutral-darkest, #171717);
+  justify-content: center;
+  max-width: 420px;
 }
 
 .pontos-de-carona {
-    background: var(--Brand-color-brand-secondary, #EB72AC);
-    color: #000;
-    margin-left: 30px;
-    padding: 64px 26px;
+  background: var(--Brand-color-brand-secondary, #eb72ac);
+  color: #000;
+  margin-left: 30px;
+  padding: 64px 26px;
 }
 
 .ponto-img {
-    min-width: 310px;
-    overflow: hidden;
-    margin-left: 30px;
+  min-width: 310px;
+  overflow: hidden;
+  margin-left: 30px;
 }
 
 .imagem {
-    min-height: 100%;
-    object-fit: cover;
+  min-height: 100%;
+  object-fit: cover;
 }
 
 .info-app {
-    background: var(--Brand-color-brand-primary, #2B388A);
-    padding: 64px 26px;
-    justify-content: center;
-    margin-left: 30px;
+  background: var(--Brand-color-brand-primary, #2b388a);
+  padding: 64px 26px;
+  justify-content: center;
+  margin-left: 30px;
 }
 
-.info-app h2, .info-app p {
-    color: var(--Neutral-color-neutral-lightest, #FEFEFE);
+.info-app h2,
+.info-app p {
+  color: var(--Neutral-color-neutral-lightest, #fefefe);
 }
 
 .botao-app {
-    display: flex;
-    border-radius: 200px;
-    background: var(--Neutral-color-neutral-lightest, #FEFEFE);
-    padding: 12px 20px;
-    margin-right: auto;
-    margin-top: 30px;
-    color: var(--Brand-color-brand-primary, #2B388A);
-    font-family: Karla;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+  display: flex;
+  border-radius: 200px;
+  background: var(--Neutral-color-neutral-lightest, #fefefe);
+  padding: 12px 20px;
+  margin-right: auto;
+  margin-top: 30px;
+  color: var(--Brand-color-brand-primary, #2b388a);
+  font-family: Karla;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
 .video-embutido {
-    position: relative;
-    overflow: hidden;
-    align-items: center;
-    min-width: 675px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  min-width: 675px;
 }
 
 .video-embutido iframe {
-    min-width: 100%;
-    min-height: 100%;
-    position: relative;
-    align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  align-items: center;
 }
 
 h1 {
-    font-family: Poppins, sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 h2 {
-    font-family: Poppins, sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 16px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
 }
 
 p {
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%; /* 22.4px */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
 }

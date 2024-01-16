@@ -1,6 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -16,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: '14'
 
       - name: Install dependencies
         run: npm ci
@@ -29,3 +32,15 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+
+  test:
+    name: 'Check the source code and code style'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: npm ci
+      - name: Prettier
+        run: npm run prettier
+      - name: Lint
+        run: npm run lint

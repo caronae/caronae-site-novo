@@ -1,9 +1,7 @@
 import Navbar from '../../components/Navbar';
 
 const About = () => {
-    return (
-      <Navbar/>
-    )
-}
+  return <Navbar />;
+};
 
 export default About;

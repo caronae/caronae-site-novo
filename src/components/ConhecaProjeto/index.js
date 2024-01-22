@@ -4,7 +4,7 @@ import IconPink from "../../assets/conheca-icon-pink.png"
 import IconGreen from "../../assets/conheca-icon-green.png"
 import IconBlue from "../../assets/conheca-icon-blue.png"
 import IconOrange from "../../assets/conheca-icon-orange.png"
-import { isContentEditable } from '@testing-library/user-event/dist/utils'
+
 
 export default function ConhecaProjeto () {
     return(

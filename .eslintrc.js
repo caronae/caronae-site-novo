@@ -63,7 +63,7 @@ module.exports = {
     semi: ['error', 'always'],
     quotes: ['error', 'single', { avoidEscape: true }],
     curly: ['error', 'multi-or-nest', 'consistent'],
-    'linebreak-style': ['error', 'unix', 'windows'],
+    'linebreak-style': ['error', process.env.NODE_ENV === 'prod' ? 'unix' : 'windows'],
     'no-duplicate-imports': [
       'error',
       {
@@ -112,7 +112,6 @@ module.exports = {
         nonwords: false
       }
     ],
-    
     'keyword-spacing': [
       'error',
       {

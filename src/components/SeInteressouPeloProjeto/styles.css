@@ -1,0 +1,117 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.se-interessou-pelo-projeto {
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.conteudo {
+    display: flex;
+    margin: auto;
+    width: 77rem;
+    justify-content: space-between;
+}
+
+.coluna-esquerda {
+    display: flex;
+    flex-direction: column;
+    min-width: 32rem;
+}
+
+.coluna-esquerda h1 {
+    color: var(--Neutral-color-neutral-darkest, #171717);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imagem-e-botao {
+    display:flex;
+    margin-top: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 350px;
+    height: 115px;
+    border-radius: 100px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.icone-email {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+}
+
+.text-area {
+    display: flex;
+    position: relative;
+}
+
+.info-usuario {
+    display: flex;
+}
+
+.text-area textarea, input {
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    margin: 0px 40px 40px 0;
+    border: none;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    resize: none;
+    min-height: 50px;
+}
+
+.text-area label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    height: 15px;
+    background: #FFF;
+    padding: 0px 4px;
+    margin: 0;
+    color: var(--M3-sys-light-on-surface, #1C1B1F);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}
+
+form button {
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+    background: #2B388A;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    border-radius: 100px;
+}

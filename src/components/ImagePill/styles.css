@@ -1,0 +1,10 @@
+.image-pill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-pill img {
+    object-fit: cover;
+}

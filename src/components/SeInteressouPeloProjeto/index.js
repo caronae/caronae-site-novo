@@ -1,82 +1,55 @@
 import './styles.css';
 import imagemAmigos from '../../assets/amigos.jpeg';
-import iconeEmail from '../../assets/email.svg';
+import Chip from '../Chip/';
+import ImagePill from '../ImagePill';
+import MailIcon from '../MailIcon';
 
 export default function SeInteressouPeloProjeto () {
     return (
-        <section className="se-interessou-pelo-projeto">
-            <div className="conteudo">
-                <div className="coluna-esquerda">
-                    <h1>Se interessou pelo projeto?<br/>Nos envie uma mensagem</h1>
-                    <span className="imagem-e-botao">
-                        <div className="imagem" style={{ backgroundImage: `url(${imagemAmigos})` }} />
-                        <IconeEmail bgColor="#EB72AC"
-                                    diameter="140" />
-                    </span>
-                </div>
-                <FormContato />
-            </div>
-        </section>
+        <div className="container">
+            <SeInteressouHeading />
+            <SeInteressouForm />
+            <Chip backgroundColor="#17b270"
+                  borderRadius="65px"
+                  width="400px"
+                  height="130px"/>
+            <MailIcon />
+            <MailIcon />
+            <Chip backgroundColor="#6e361f"
+                  borderRadius="65px"
+                  width="400px"
+                  height="131px"/>
+            <MailIcon />
+        </div>
     );
 }
 
-function FormContato () {
+function SeInteressouHeading () {
     return (
-        <form>
-            <div className="info-usuario">
-                <InputText id="nome"
-                           name="nome"
-                           label="Nome:"
-                           width="250px" />
-                <InputText id="email"
-                           name="email"
-                           label="E-Mail:"
-                           placeholder="nome@email.com" />
-            </div>
-            <InputText id="objetivo-do-email"
-                       name="objetivo-do-email"
-                       label="Objetivo do e-mail" />
-            <TextArea id="mensagem"
-                      name="mensagem"
-                      label="Mensagem"
-                      rows="5" />
-            <button className="enviar" type="button">Enviar</button>
+        <div className="se-interessou-heading">
+            <h1>Se interessou pelo projeto? Nos envie uma mensagem</h1>
+            <span>
+                <ImagePill width="350px"
+                           height="115px"
+                           src={ imagemAmigos } />
+                <MailIcon backgroundColor="#eb72ac"
+                          size="115px" />
+            </span>
+        </div>
+    );
+}
+function SeInteressouForm () {
+    /*
+    return ({
+        <form className="se-interessou-form">
+            <span>
+                <TextInput />
+                <TextInput />
+            </span>
+            <TextInput />
+            <TextArea />
         </form>
     );
-}
-
-function InputText ({ id, name, label, placeholder }) {
-    return (
-        <div className="text-area">
-            <label htmlFor={ id }>{ label }</label>
-            <input type="text"
-                   id={ id }
-                   name={ name }
-                   placeholder= { placeholder } />
-        </div>
-    );
-}
-
-function TextArea ({ id, name, label, rows, cols, placeholder }) {
-    return (
-        <div className="text-area">
-            <label htmlFor={ id }>{ label }</label>
-            <textarea rows={ rows } cols={ cols } id={ id }
-                      name={ name }
-                      placeholder= { placeholder } />
-        </div>
-    );
-}
-
-function IconeEmail ({ bgColor, diameter }) {
-    return (
-        <div className="icone-email"
-             style={{
-                 backgroundColor: `${bgColor}`,
-                 height: `${diameter}px`,
-                 width: `${diameter}px`,
-                 borderRadius: '50%' }} >
-            <img src={ iconeEmail } style={{ width: `${diameter*0.4}px` }} />
-        </div>
-    );
+    */
+    return (<div></div>);
 }

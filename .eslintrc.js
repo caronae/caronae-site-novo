@@ -63,7 +63,7 @@ module.exports = {
     semi: ['error', 'always'],
     quotes: ['error', 'single', { avoidEscape: true }],
     curly: ['error', 'multi-or-nest', 'consistent'],
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 0,
     'no-duplicate-imports': [
       'error',
       {
@@ -112,7 +112,6 @@ module.exports = {
         nonwords: false
       }
     ],
-    
     'keyword-spacing': [
       'error',
       {

@@ -16,13 +16,13 @@ export default function Chip (props) {
         const content = [];
 
         if ('imgSrc' in props) {
-            const img = <img src={ `${props.imgSrc}` }
-                             style={{ height: `${height * 0.5}` }} />;
+            const img = <img src={ props.imgSrc }
+                             style={{ height: `${parseInt(height) * 0.5}px` }} />;
             content.push(img);
         }
 
         if ('textContent' in props) {
-            const text = <p>{ `${props.textContent}` }</p>;
+            const text = <p>{ props.textContent }</p>;
             content.push(text);
 
         setElements(content);

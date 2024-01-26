@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar';
 import {NossoFoco} from '../../components/NossoFoco';
 import Falae from '../../components/Falae';
 import Projeto from '../../components/Projeto';
+import Solucoes from '../../components/Solucoes'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
         <HeroSection/>
         <Projeto/>
         <NossoFoco/>
+        <Solucoes/>
         <Apoiadores/>
         <Falae/>
         <Footer/>

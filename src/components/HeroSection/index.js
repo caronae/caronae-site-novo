@@ -10,9 +10,7 @@ import naturalPeople from '../../assets/nature-people.png';
 const HeroSection = () => {
     return(
         <div className="hero-section">
-            <div id="street1" className="street"> 
-                <img alt ='estrada' src={estradaEsq}/>
-            </div>
+            <div id="street1" className="street"> <img alt ='estrada' src={estradaDir}/></div>
             <div className="main">
                 <div className="text">
                     <div className='row'>
@@ -26,7 +24,7 @@ const HeroSection = () => {
                         <span className="main-text">sustentável</span>
                         <IconForm src={naturalPeople} margin="10px" backgroundColor='#17B270' shadow='#6E361F' />
                     </div>
-                    <p className='subtext'>
+                    <p className="subtext">
                     Economize enquanto protege o planeta!
                     </p>
                 </div>
@@ -40,7 +38,7 @@ const HeroSection = () => {
                     />
                 </div>
             </div>
-            <div id="street2" className="street"> <img alt ='estrada' src={estradaDir}/></div>
+            <div id="street2" className="street"> <img alt ='estrada' src={estradaEsq}/></div>
         </div>
     )
 }

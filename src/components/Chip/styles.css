@@ -2,7 +2,7 @@
 
 .chip {
     border-radius: 200px;
-    padding: 28px 50px;
+    padding: 35px 50px;
     border: 0;
     text-align: center;
 }
@@ -14,7 +14,10 @@
     align-items: center;
     text-align: center;
     height: 50px;
-    
+}
+
+.chipImg {
+    margin-right: 20px; 
 }
 
 .chipText {

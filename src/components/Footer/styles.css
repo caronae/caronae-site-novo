@@ -6,6 +6,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
 main{
     width: 77.625rem;
     display: grid;
@@ -13,6 +14,7 @@ main{
     grid-template-rows: 13.438rem;
     font-family: 'Lato', sans-serif;
     font-style: normal;
+    margin-top: 5rem;
 }
 .texto{
     font-weight: 400;

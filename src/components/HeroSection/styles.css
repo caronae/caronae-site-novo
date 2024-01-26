@@ -4,30 +4,31 @@
     margin: 0;
     padding: 0;
     font-family: 'Karla', sans-serif;
-    /* font-weight: 700;
-    font-size: 64px; */
     color: #000000
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .hero-section {
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .main{
     translate: 0 2rem;
-    width: 60rem;
     align-self: flex-end;
     flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
 }
-.text{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+.div text{
+    padding: 0px 0px 0px 0px;
 }
+
 .row{
     margin-top: 0.5rem;
     display: flex;
@@ -36,8 +37,9 @@
     justify-content: center;
 }
 .street{
-    align-self: flex-end;
+    align-self: center;
 }
+
 .subtext{
     margin-top: 0.8rem;
     font-family: 'Lato';
@@ -45,11 +47,12 @@
     font-weight: 500;
     font-size: 20px;
     color: #171717;
+    text-align: center;
 }
 
 .bnt{
     display: flex;
     justify-content: center;
     margin-top: 40px;
-
+    margin-bottom: 80px;
 }

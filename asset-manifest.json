@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.c4067d25.css",
-    "main.js": "/caronae-site-novo/static/js/main.6ed00dd0.js",
+    "main.css": "/caronae-site-novo/static/css/main.9c2f8e48.css",
+    "main.js": "/caronae-site-novo/static/js/main.6f62f364.js",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
     "static/media/ponto-caronae.png": "/caronae-site-novo/static/media/ponto-caronae.5b2d8cbeaba2001e6251.png",
     "static/media/foto-amigos.png": "/caronae-site-novo/static/media/foto-amigos.2ef3956520fb53c46745.png",
@@ -12,13 +12,18 @@
     "static/media/logo-ic.png": "/caronae-site-novo/static/media/logo-ic.09db182508459823667a.png",
     "static/media/logo-prefeitura.png": "/caronae-site-novo/static/media/logo-prefeitura.747b429fb13d185dbe7a.png",
     "static/media/logo-ufrj.png": "/caronae-site-novo/static/media/logo-ufrj.888ddabbac04cf0a8d9a.png",
+    "static/media/svg_integracao.svg": "/caronae-site-novo/static/media/svg_integracao.f280345b7fbd1e9a43a50ee2b0996f41.svg",
+    "static/media/svg_tempo.svg": "/caronae-site-novo/static/media/svg_tempo.19b07a5a7c5dd4491e818642d270ac6c.svg",
     "index.html": "/caronae-site-novo/index.html",
+    "static/media/svg_centralizacao.svg": "/caronae-site-novo/static/media/svg_centralizacao.1d4d3abffada96d17d01f66462fa2d38.svg",
     "static/media/mail-icon.svg": "/caronae-site-novo/static/media/mail-icon.19044f560f1aa47540b5c61151d8ba3b.svg",
-    "main.c4067d25.css.map": "/caronae-site-novo/static/css/main.c4067d25.css.map",
-    "main.6ed00dd0.js.map": "/caronae-site-novo/static/js/main.6ed00dd0.js.map"
+    "static/media/svg_sustentabilidade.svg": "/caronae-site-novo/static/media/svg_sustentabilidade.a8db8ca24b919f0e3099438f9c1695b5.svg",
+    "static/media/svg_seguranca.svg": "/caronae-site-novo/static/media/svg_seguranca.09db31c718a6b64ad451e85ba1c8e0d0.svg",
+    "main.9c2f8e48.css.map": "/caronae-site-novo/static/css/main.9c2f8e48.css.map",
+    "main.6f62f364.js.map": "/caronae-site-novo/static/js/main.6f62f364.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4067d25.css",
-    "static/js/main.6ed00dd0.js"
+    "static/css/main.9c2f8e48.css",
+    "static/js/main.6f62f364.js"
   ]
 }

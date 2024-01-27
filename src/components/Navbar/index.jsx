@@ -1,6 +1,6 @@
 import './styles.css';
-import logo from '../../assets/caronae-logo.png';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/caronae-logo.png';
 
 export default function Navbar() {
   return (

@@ -1,11 +1,11 @@
 import './styles.css';
+import criancasCarro from '../../assets/criancas-carro.png';
 import estradaEsq from '../../assets/estrada-1.png';
 import estradaDir from '../../assets/estrada-2.png';
-import criancasCarro from '../../assets/criancas-carro.png';
 import carro from '../../assets/Jeep.png';
-import IconForm from '../IconForm';
-import Button from '../Buttons/Button';
 import naturalPeople from '../../assets/nature-people.png';
+import Button from '../Buttons/Button';
+import IconForm from '../IconForm';
 
 const HeroSection = () => {
   return (

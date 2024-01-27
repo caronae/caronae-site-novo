@@ -1,10 +1,10 @@
 import Agencia from '../../assets/logo-agencia.png';
+import FundoVerde from '../../assets/logo-fv.png';
+import IBTS from '../../assets/logo-ibts.png';
 import Ic from '../../assets/logo-ic.png';
 import Parque from '../../assets/logo-pqtec.png';
-import UFRJ from '../../assets/logo-ufrj.png';
 import Prefeitura from '../../assets/logo-prefeitura.png';
-import IBTS from '../../assets/logo-ibts.png';
-import FundoVerde from '../../assets/logo-fv.png';
+import UFRJ from '../../assets/logo-ufrj.png';
 import './style.css';
 
 export default function Apoiadores() {

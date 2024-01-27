@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.9c2f8e48.css",
-    "main.js": "/caronae-site-novo/static/js/main.6f62f364.js",
+    "main.css": "/caronae-site-novo/static/css/main.db5b10f3.css",
+    "main.js": "/caronae-site-novo/static/js/main.debcf774.js",
+    "static/media/amigos.jpeg": "/caronae-site-novo/static/media/amigos.775269f0a4262554a12c.jpeg",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
     "static/media/ponto-caronae.png": "/caronae-site-novo/static/media/ponto-caronae.5b2d8cbeaba2001e6251.png",
+    "static/media/conheca-icon-green.png": "/caronae-site-novo/static/media/conheca-icon-green.70cedfbf0ce3f78988e0.png",
+    "static/media/conheca-icon-pink.png": "/caronae-site-novo/static/media/conheca-icon-pink.4c6b7f4726be5b3b1450.png",
     "static/media/foto-amigos.png": "/caronae-site-novo/static/media/foto-amigos.2ef3956520fb53c46745.png",
+    "static/media/conheca-icon-red.png": "/caronae-site-novo/static/media/conheca-icon-red.87f49f75ea5d71fa6ca1.png",
+    "static/media/conheca-icon-blue.png": "/caronae-site-novo/static/media/conheca-icon-blue.926f9cb8c1598b52df3f.png",
+    "static/media/conheca-icon-orange.png": "/caronae-site-novo/static/media/conheca-icon-orange.27844985625f27ae2863.png",
     "static/media/criancas-carro.png": "/caronae-site-novo/static/media/criancas-carro.bf77c5e0dc50fb68f24f.png",
     "static/media/Jeep.png": "/caronae-site-novo/static/media/Jeep.494b115d242d42ced757.png",
     "static/media/logo-ibts.png": "/caronae-site-novo/static/media/logo-ibts.f0d2d709eb8d57f5b010.png",
@@ -19,11 +25,11 @@
     "static/media/mail-icon.svg": "/caronae-site-novo/static/media/mail-icon.19044f560f1aa47540b5c61151d8ba3b.svg",
     "static/media/svg_sustentabilidade.svg": "/caronae-site-novo/static/media/svg_sustentabilidade.a8db8ca24b919f0e3099438f9c1695b5.svg",
     "static/media/svg_seguranca.svg": "/caronae-site-novo/static/media/svg_seguranca.09db31c718a6b64ad451e85ba1c8e0d0.svg",
-    "main.9c2f8e48.css.map": "/caronae-site-novo/static/css/main.9c2f8e48.css.map",
-    "main.6f62f364.js.map": "/caronae-site-novo/static/js/main.6f62f364.js.map"
+    "main.db5b10f3.css.map": "/caronae-site-novo/static/css/main.db5b10f3.css.map",
+    "main.debcf774.js.map": "/caronae-site-novo/static/js/main.debcf774.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2f8e48.css",
-    "static/js/main.6f62f364.js"
+    "static/css/main.db5b10f3.css",
+    "static/js/main.debcf774.js"
   ]
 }

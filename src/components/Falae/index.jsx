@@ -16,12 +16,15 @@ const Falae = () => {
         </p>
         <p className="falae-email">caronae@caronae.org</p>
         <div className="falae-links">
-          <Link className="falae-duvida"
-                style={{ textDecoration: 'none', color: 'black' }}
-                to="/faq">
-          Tenho uma dúvida
+          <Link
+            className="falae-duvida"
+            style={{ textDecoration: 'none', color: 'black' }}
+            to="/faq"
+          >
+            Tenho uma dúvida
           </Link>
-          <LinkMailto className="entrar-em-contato"
+          <LinkMailto
+            className="entrar-em-contato"
             mailto="mailto:caronae@caronae.org"
             label="Entrar em contato"
           />
@@ -31,9 +34,7 @@ const Falae = () => {
         <div className="falae-rectangle"></div>
         <div className="falae-icon-img">
           <MailIcon backgroundColor="#17b270" size="160px" />
-          <ImagePill width="345px"
-                     height="160px"
-                     src={ falaeImg } />
+          <ImagePill width="345px" height="160px" src={falaeImg} />
         </div>
       </div>
     </div>

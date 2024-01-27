@@ -1,10 +1,10 @@
 import './styles.css';
+import centralizacao from '../../assets/svg_centralizacao.svg';
+import integracao from '../../assets/svg_integracao.svg';
+import seguranca from '../../assets/svg_seguranca.svg';
+import sustentabilidade from '../../assets/svg_sustentabilidade.svg';
+import tempo from '../../assets/svg_tempo.svg';
 import Chip from '../Chip';
-import centralizacao from './../../assets/centralizacao-icon.svg';
-import integracao from './../../assets/integracao-icon.svg';
-import seguranca from './../../assets/seguranca-icon.svg';
-import sustentabilidade from './../../assets/sustentabilidade-icon.svg';
-import tempo from './../../assets/tempo-icon.svg';
 
 const NossoFoco = () => {
   return (
@@ -20,26 +20,26 @@ const NossoFoco = () => {
           />
           <Chip
             textContent="Sustentabilidade"
-            imgSrc={ sustentabilidade }
             backgroundColor="#17B270"
             background="#17B270"
             width="315px"
-            imgSize="38px"
+            imgSrc={sustentabilidade}
+            imgSize="25px"
           />
           <Chip
             textContent="Segurança"
-            imgSrc={ seguranca }
             backgroundColor="#EB3D38"
             background="#EB3D38"
-            imgSize="42px"
+            imgSrc={seguranca}
+            imgSize="30px"
           />
           <Chip
             textContent="Tempo"
-            color="#fff"
-            imgSrc={ tempo }
             backgroundColor="#2B388A"
             background="#2B388A"
-            imgSize="45px"
+            color="#FEFEFE"
+            imgSrc={tempo}
+            imgSize="35px"
           />
           <Chip width="250px" background="#DFDFDF" />
           <Chip
@@ -58,17 +58,17 @@ const NossoFoco = () => {
           <Chip width="230px" background="#DFDFDF" />
           <Chip
             textContent="Centralização"
-            imgSrc={ centralizacao }
             backgroundColor="#EB72AC"
             background="#EB72AC"
-            imgSize="42px"
+            imgSrc={centralizacao}
+            imgSize="25px"
           />
           <Chip
             textContent="Integração"
-            imgSrc={ integracao }
             backgroundColor="#ED8024"
             background="#ED8024"
-            imgSize="42px"
+            imgSrc={integracao}
+            imgSize="25px"
           />
           <Chip width="185px" background="#DFDFDF" />
           <Chip

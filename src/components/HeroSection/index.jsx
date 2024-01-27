@@ -11,7 +11,8 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div id="street1" className="street">
-        <img alt="estrada" src={estradaEsq} />
+        {' '}
+        <img alt="estrada" src={estradaDir} />
       </div>
       <div className="main">
         <div className="text">
@@ -54,7 +55,7 @@ const HeroSection = () => {
       </div>
       <div id="street2" className="street">
         {' '}
-        <img alt="estrada" src={estradaDir} />
+        <img alt="estrada" src={estradaEsq} />
       </div>
     </div>
   );

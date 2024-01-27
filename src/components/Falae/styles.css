@@ -5,9 +5,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 300px;
+  margin-left: 131px;
+  margin-right: 139px;
+  margin-bottom: 200px;
   margin-top: 200px;
   justify-content: center;
   align-items: center;
@@ -93,4 +93,3 @@
 .texts {
   margin-right: 10vw;
 }
-

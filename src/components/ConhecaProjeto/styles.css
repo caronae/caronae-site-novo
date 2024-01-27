@@ -1,66 +1,60 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato&family=Poppins:wght@600&display=swap');
 
-.conhecaProjeto{
-    padding-top: 100px;
+.conhecaProjeto {
+  padding-top: 100px;
 }
 
-.conhecaTitulo{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    font-size: 64px;
+.conhecaTitulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 64px;
 }
 
-.conhecaTexto{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 10px;
+.conhecaTexto {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .btn-historia {
-    font-family: 'Karla', sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 17px;
-    background-color: #EB72AC;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    box-shadow: 3px 3px 10px 0px #0000004D;   
+  font-family: 'Karla', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 17px;
+  background-color: #eb72ac;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 3px 3px 10px 0px #0000004d;
 }
-.btn-historia > strong > p{
-    color: #000732;
+.btn-historia > strong > p {
+  color: #000732;
 }
-.historia{
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
+.historia {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.fotos{
-    display: grid;
-    
-    grid-template-columns: auto auto auto;
-    gap: 24px;
-    
-}
-.foto-verde{
+.fotos {
+  display: grid;
 
-    position: relative;
-    top: -202px;
-    
+  grid-template-columns: auto auto auto;
+  gap: 24px;
 }
-.foto-rosa{
-
-    position: relative;
-    top: -70px;
-    
+.foto-verde {
+  position: relative;
+  top: -202px;
+}
+.foto-rosa {
+  position: relative;
+  top: -70px;
 }

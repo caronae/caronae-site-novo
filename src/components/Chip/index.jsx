@@ -1,44 +1,14 @@
 import './styles.css';
-import { useState, useEffect } from 'react';
 
-export default function Chip (props) {
-    const {
-        height = '50px',
-        width = 'fit-content',
-        padding = '40px',
-        backgroundColor = '#17B270',
-        color = '#000'
-    } = props;
-
-    const [elements, setElements] = useState([]);
-
-    useEffect(() => {
-        const content = [];
-
-        if ('imgSrc' in props) {
-            const img = <img src={ props.imgSrc }
-                             style={{ height: `${parseInt(height) * 0.5}px` }} />;
-            content.push(img);
-        }
-
-        if ('textContent' in props) {
-            const text = <p>{ props.textContent }</p>;
-            content.push(text);
-
-        setElements(content);
-        }
-
-    }, [props, height]);
-
+const Chip = props => {
     return (
-        <div className="chip" style={{ height: `${height}`,
-                                       width: `${width}`,
-                                       padding: `${padding}`,
-                                       backgroundColor: `${backgroundColor}`,
-                                       background: `${props.background}`,
-                                       color: `${color}`,
-                                       borderRadius: `${height}` }} >
-            { elements }
+        <div className="chip" style={{ backgroundColor: props.backgroundColor, height: props.height, width: props.width, padding: props.padding, background: props.background, borderRadius: props.borderRadius }}>
+            <div className="chipDiv">
+                <img className="chipImg" src={props.imgSrc} style={{ height: props.imgSize }}></img>
+                <p className="chipText" style={{ fontSize: props.fontSize, lineHeigth: props.lineHeigth, color: props.color }}>{props.textContent}</p>
+            </div>
         </div>
-    );
-}
+     );
+};
+
+export default Chip;

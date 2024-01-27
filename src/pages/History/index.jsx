@@ -1,9 +1,7 @@
 import Navbar from '../../components/Navbar';
 
 const History = () => {
-    return (
-      <Navbar/>
-    )
-}
+  return <Navbar />;
+};
 
 export default History;

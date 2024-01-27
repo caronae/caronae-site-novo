@@ -1,9 +1,7 @@
-import AppRouter from "./routes/route";
+import AppRouter from './routes/route';
 
 const App = () => {
-    return (    
-        <AppRouter/>
-    );
+  return <AppRouter />;
 };
 
 export default App;

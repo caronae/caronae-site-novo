@@ -2,115 +2,94 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .falae-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 131px;
-    margin-right: 139px;
-    margin-bottom: 200px;
-    margin-top: 200px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 131px;
+  margin-right: 139px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .falae-heading {
-    color: var(--neutral-color-neutral-darkest, #171717);
-    font-family: 'Karla', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 16px;
+  color: var(--neutral-color-neutral-darkest, #171717);
+  font-family: 'Karla', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
 }
 
 .falae-text {
-    color: var(--neutral-color-neutral-darkest, #171717);
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    max-width: 379px;
-    margin-bottom: 7px;
+  color: var(--neutral-color-neutral-darkest, #171717);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 379px;
+  margin-bottom: 7px;
 }
 
 .falae-email {
-    color: var(--neutral-color-neutral-darkest, #171717);
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 50px;
+  color: var(--neutral-color-neutral-darkest, #171717);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
 }
 
 .falae-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-betweeen;
 }
 
 .falae-duvida {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: var(--brand-color-brand-secondary, #EB72AC);
-    border-radius: 200px;
-    width: 230px;
-    height: 55px;
-    color: #000;
-    font-family: Karla, sans-serif;
-    font-size: 17.208px;
-    font-style: bold;
-    font-weight: 800;
-    line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb72ac;
+  border-radius: 200px;
+  width: 230px;
+  height: 55px;
+  color: #000;
+  font-family: Karla, sans-serif;
+  font-size: 17.208px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: normal;
 }
 
 .falae-contato {
-    margin-left: 19px;
+  margin-left: 19px;
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #2b388a;
 }
 
 .falae-rectangle {
-    width: 555px;
-    height: 122px;
-    border-bottom: 24px;
-    border-radius: 61px;
-    background: var(--brand-color-brand-tertiary, #ED8024);
-    margin-bottom: 24px;
+  width: 555px;
+  height: 122px;
+  border-bottom: 24px;
+  border-radius: 61px;
+  background: var(--brand-color-brand-tertiary, #ed8024);
+  margin-bottom: 24px;
 }
 
 .falae-icon-img {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.falae-icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
-    height: 160px;
-    border-radius: 80px;
-    background: var(--action-color-action-primary, #17B270);
-}
-.falae-icon {
-    width: 75px;
-    height: 75px;
-}
-
-.falae-img-container {
-    width: 345px;
-    height: 160px;
-    border-radius: 80px;
-    overflow: hidden;
-    margin-left:35px;
-}
-
-.falae-img {
-    width: 345px;
-    object-fit: cover;
-}
-.texts{
-    margin-right: 10vw;
+.texts {
+  margin-right: 10vw;
 }

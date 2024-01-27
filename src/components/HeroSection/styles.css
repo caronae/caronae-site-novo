@@ -1,58 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Karla', sans-serif;
-    color: #000000
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  color: #000000;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .hero-section {
-    display: flex;
-    margin-top: 100px;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.main{
-    translate: 0 2rem;
-    align-self: flex-end;
-    flex-direction: column;
-    width: 100%;
-    overflow-x: auto;
-}
-
-.div text{
-    padding: 0px 0px 0px 0px;
+.main {
+  translate: 0 2rem;
+  align-self: flex-end;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: auto;
 }
 
-.row{
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.street{
-    align-self: center;
+.div text {
+  padding: 0px 0px 0px 0px;
 }
 
-.subtext{
-    margin-top: 0.8rem;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    color: #171717;
-    text-align: center;
+.row {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.street {
+  align-self: center;
 }
 
-.bnt{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 80px;
+.subtext {
+  margin-top: 0.8rem;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #171717;
+  text-align: center;
+}
+
+.bnt {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }

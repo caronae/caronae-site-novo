@@ -1,9 +1,7 @@
 import Navbar from '../../components/Navbar';
 
 const MobileApp = () => {
-    return (
-      <Navbar/>
-    )
-}
+  return <Navbar />;
+};
 
 export default MobileApp;

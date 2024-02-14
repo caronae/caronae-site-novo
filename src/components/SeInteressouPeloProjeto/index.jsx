@@ -1,6 +1,5 @@
 import './styles.css';
 import imagemAmigos from '../../assets/amigos.jpeg';
-import Chip from '../Chip';
 import { TextInput, TextArea, SubmitButton } from '../Form';
 import ImagePill from '../ImagePill';
 import MailIcon from '../MailIcon';
@@ -13,49 +12,49 @@ export default function SeInteressouPeloProjeto() {
 
       <MarginDecoration
         element={
-          <Chip
+          <Pill
             width="400px"
             height="130px"
-            backgroundColor="#17B270"
+            backgroundColor="rgba(23, 178, 112, 1)"
           />
         }
         rotation="-25deg"
-        xOffset="-300px"
-        yOffset="-100px"
+        left="-300px"
+        top="-140px"
       />
 
       <MarginDecoration
         element={<MailIcon size="140px" backgroundColor="#2B388A" />}
         rotation="30deg"
-        xOffset="-200px"
-        yOffset="70px"
+        left="-200px"
+        top="100px"
       />
 
       <MarginDecoration
         element={<MailIcon size="140px" backgroundColor="#EB3D38" />}
         rotation="-20deg"
-        xOffset="1130px"
-        yOffset="-180px"
+        right="-100px"
+        top="-180px"
       />
 
       <MarginDecoration
         element={
-          <Chip
+          <Pill
             width="400px"
             height="130px"
-            backgroundColor="#6E361F"
+            backgroundColor="rgba(110, 54, 31, 1)"
           />
         }
         rotation="25deg"
-        xOffset="1170px"
-        yOffset="70px"
+        right="-450px"
+        top="80px"
       />
 
       <MarginDecoration
         element={<MailIcon size="175px" backgroundColor="#ED8024" />}
         rotation="30deg"
-        xOffset="1200px"
-        yOffset="200px"
+        right="-250px"
+        bottom="0px"
       />
     </div>
   );
@@ -111,17 +110,26 @@ function SeInteressouForm() {
   );
 }
 
-function MarginDecoration({ element, rotation, xOffset, yOffset }) {
+function MarginDecoration(props) {
   return (
     <div
       style={{
         position: 'absolute',
-        transform: `rotate(${rotation})`,
-        left: xOffset,
-        top: yOffset
+        transform: `rotate(${props.rotation})`,
+        right: props.right,
+        left: props.left,
+        top: props.top,
+        bottom: props.bottom
       }}
     >
-      {element}
+      {props.element}
     </div>
   );
 }
+
+const Pill = (props) => {
+  return (
+      <div style={{ height: props.height, width: props.width, backgroundColor: props.backgroundColor,
+        borderRadius: props.height }} />
+  );
+};

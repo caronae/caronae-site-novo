@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap%27');
-
 .chip {
   border-radius: 200px;
-  padding: 28px 50px;
+  padding: 35px 50px;
   border: 0;
   text-align: center;
 }
@@ -10,15 +8,18 @@
 .chipDiv {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   height: 50px;
 }
 
-.chipText {
+.chipImg {
+  margin-right: 20px;
+}
+
+.chip p {
   font-family: 'Poppins', sans-serif;
   font-size: 26px;
   font-weight: 600;
-  color: #171717;
 }

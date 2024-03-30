@@ -1,7 +1,8 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 import falaeImg from '../../assets/falae-img.jpg';
-import mailIcon from '../../assets/mail-icon.svg';
+import ImagePill from './../ImagePill';
+import MailIcon from './../MailIcon';
 
 const Falae = () => {
   return (
@@ -23,6 +24,7 @@ const Falae = () => {
             Tenho uma dúvida
           </Link>
           <LinkMailto
+            className="entrar-em-contato"
             mailto="mailto:caronae@caronae.org"
             label="Entrar em contato"
           />
@@ -31,12 +33,8 @@ const Falae = () => {
       <div className="images">
         <div className="falae-rectangle"></div>
         <div className="falae-icon-img">
-          <div className="falae-icon-container">
-            <img className="falae-icon" src={mailIcon} />
-          </div>
-          <div className="falae-img-container">
-            <img className="falae-img" src={falaeImg} />
-          </div>
+          <MailIcon backgroundColor="#17b270" size="160px" />
+          <ImagePill width="345px" height="160px" src={falaeImg} />
         </div>
       </div>
     </div>

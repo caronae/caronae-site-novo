@@ -1,12 +1,16 @@
 import EquipeCaronae from '../../components/EquipeCaronae';
+import ConhecaProjeto from '../../components/ConhecaProjeto';
 import Navbar from '../../components/Navbar';
+import SeInteressouPeloProjeto from '../../components/SeInteressouPeloProjeto';
 
 const About = () => {
   return (
-  <>
-    <Navbar />;
-    <EquipeCaronae/>;
-  </>
+    <>
+      <Navbar />
+      <ConhecaProjeto/>
+      <EquipeCaronae/>;
+      <SeInteressouPeloProjeto/>
+    </>
   );
 };
 

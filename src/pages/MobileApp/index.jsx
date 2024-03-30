@@ -1,7 +1,13 @@
 import Navbar from '../../components/Navbar';
+import VaDeCaronae from '../../components/VaDeCaronae';
 
 const MobileApp = () => {
-  return <Navbar />;
+  return (
+    <>
+    <Navbar />
+    <VaDeCaronae />
+    </>
+  );
 };
 
 export default MobileApp;

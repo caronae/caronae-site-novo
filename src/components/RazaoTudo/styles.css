@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato&family=Poppins:wght@600&display=swap');
+
+.razaoTudoMainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 71rem;
+  height: 400px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.razaoTudoMainContainer
+.left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  height: 250px;
+}
+
+.razaoTudoMainContainer
+.left
+.pictureBox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.razaoTudoMainContainer
+.left
+.pictureBox
+img {
+  margin-right: 20px;
+}
+
+.razaoTudoMainContainer
+.left
+.numbersBox {
+  display: flex;
+  align-items: last baseline;
+}
+
+.razaoTudoMainContainer
+.left
+.numbersBox
+h2 {
+  color: #171717;
+  font-family:  'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 22.69px;
+  line-height: 27.23px;
+  transform: rotate(-90deg);
+  margin-top: 15%;
+}
+
+.razaoTudoMainContainer
+.left
+.numbersBox
+.dataBox {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.razaoTudoMainContainer
+.left
+.numbersBox
+.dataBox
+.main {
+  text-align: center;
+}
+
+.razaoTudoMainContainer
+.left
+.numbersBox
+.dataBox
+.main
+h3 {
+  color: #171717;
+  font-family:  'Lato', sans-serif;
+  font-size: 45.39px;
+  font-weight: 800;
+  line-height: 54.46px;
+}
+
+.razaoTudoMainContainer
+.left
+.numbersBox
+.dataBox
+.main
+h4 {
+  color: #171717;
+  font-family:  'Lato', sans-serif;
+  font-size: 22.69px;
+  font-weight: 600;
+  line-height: 27.23px;
+}
+
+.razaoTudoMainContainer
+.right {
+  width: 120%;
+  margin-left: 50px;
+}
+
+.razaoTudoMainContainer
+.right
+.title
+h1 {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.razaoTudoMainContainer
+.right
+.text {
+  padding: 0px;
+  width: 85%;
+}
+
+.razaoTudoMainContainer
+.right
+.text
+p {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  padding-bottom: 15px;
+}

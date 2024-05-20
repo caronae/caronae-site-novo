@@ -16,7 +16,8 @@ const styles = {
   vaDeCaronae: {
     position: 'relative',
     overflow: 'hidden',
-    marginTop: '20px',
+    marginTop: '100px',
+    marginBottom: '100px',
     width: '1370px',
     height: '640px',
     borderRadius: '20px',

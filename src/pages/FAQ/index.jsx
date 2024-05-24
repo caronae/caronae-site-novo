@@ -1,11 +1,11 @@
-import AcoredeonProjetoDeExtensao from '../../components/AcordeonProjetoDeExtensao';
+import AcordeonProjetoDeExtensao from '../../components/AcordeonProjetoDeExtensao';
 import Navbar from '../../components/Navbar';
 
 const FAQ = () => {
   return (
     <>
       <Navbar />
-      <AcoredeonProjetoDeExtensao/>
+      <AcordeonProjetoDeExtensao/>
     </>
   );
 };

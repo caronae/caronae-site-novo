@@ -58,7 +58,7 @@ const data = [
   }
 ];
 
-const AcoredeonProjetoDeExtensao = () => {
+const AcordeonProjetoDeExtensao = () => {
     return (
       <div className="accordion-container">
         <h1 className="title">PROJETO DE EXTENSÃO</h1>
@@ -73,4 +73,4 @@ const AcoredeonProjetoDeExtensao = () => {
     );
   };
 
-  export default AcoredeonProjetoDeExtensao;
+  export default AcordeonProjetoDeExtensao;

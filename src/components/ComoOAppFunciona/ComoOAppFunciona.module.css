@@ -42,7 +42,7 @@ ol li {
     margin-left: 80px;
 }
 
-h2::before {
+.listContainer h2::before {
     content: counter(counter) "";
     display: inline-block;
     position: absolute;

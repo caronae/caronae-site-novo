@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.a77bdacd.css",
-    "main.js": "/caronae-site-novo/static/js/main.b27a721f.js",
+    "main.css": "/caronae-site-novo/static/css/main.91c4dfc5.css",
+    "main.js": "/caronae-site-novo/static/js/main.004bf7b0.js",
     "static/media/amigos.jpeg": "/caronae-site-novo/static/media/amigos.775269f0a4262554a12c.jpeg",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
     "static/media/como-o-app-funciona.png": "/caronae-site-novo/static/media/como-o-app-funciona.43fc1b14e13d3fbfdc3f.png",
@@ -40,11 +40,11 @@
     "static/media/leaf_white.svg": "/caronae-site-novo/static/media/leaf_white.4059fe6171a597c9c142b60f8246104d.svg",
     "static/media/shield_white.svg": "/caronae-site-novo/static/media/shield_white.f75d0855e90290c6518bb38700753778.svg",
     "static/media/svg_seguranca.svg": "/caronae-site-novo/static/media/svg_seguranca.09db31c718a6b64ad451e85ba1c8e0d0.svg",
-    "main.a77bdacd.css.map": "/caronae-site-novo/static/css/main.a77bdacd.css.map",
-    "main.b27a721f.js.map": "/caronae-site-novo/static/js/main.b27a721f.js.map"
+    "main.91c4dfc5.css.map": "/caronae-site-novo/static/css/main.91c4dfc5.css.map",
+    "main.004bf7b0.js.map": "/caronae-site-novo/static/js/main.004bf7b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a77bdacd.css",
-    "static/js/main.b27a721f.js"
+    "static/css/main.91c4dfc5.css",
+    "static/js/main.004bf7b0.js"
   ]
 }

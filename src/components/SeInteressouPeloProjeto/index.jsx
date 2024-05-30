@@ -4,58 +4,65 @@ import { TextInput, TextArea, SubmitButton } from '../Form';
 import ImagePill from '../ImagePill';
 import MailIcon from '../MailIcon';
 
-export default function SeInteressouPeloProjeto() {
+export default function SeInteressouPeloProjeto({
+  withDecoration = true
+}) {
   return (
     <div className="se-interessou-container">
       <SeInteressouHeading />
       <SeInteressouForm />
 
-      <MarginDecoration
-        element={
-          <Pill
-            width="400px"
-            height="130px"
-            backgroundColor="rgba(23, 178, 112, 1)"
+      { withDecoration ?
+        (
+        <>
+          <MarginDecoration
+            element={
+              <Pill
+                width="400px"
+                height="130px"
+                backgroundColor="rgba(23, 178, 112, 1)"
+              />
+            }
+            rotation="-25deg"
+            left="-300px"
+            top="-140px"
           />
-        }
-        rotation="-25deg"
-        left="-300px"
-        top="-140px"
-      />
 
-      <MarginDecoration
-        element={<MailIcon size="140px" backgroundColor="#2B388A" />}
-        rotation="30deg"
-        left="-200px"
-        top="100px"
-      />
-
-      <MarginDecoration
-        element={<MailIcon size="140px" backgroundColor="#EB3D38" />}
-        rotation="-20deg"
-        right="-100px"
-        top="-180px"
-      />
-
-      <MarginDecoration
-        element={
-          <Pill
-            width="400px"
-            height="130px"
-            backgroundColor="rgba(110, 54, 31, 1)"
+          <MarginDecoration
+            element={<MailIcon size="140px" backgroundColor="#2B388A" />}
+            rotation="30deg"
+            left="-200px"
+            top="100px"
           />
-        }
-        rotation="25deg"
-        right="-450px"
-        top="80px"
-      />
 
-      <MarginDecoration
-        element={<MailIcon size="175px" backgroundColor="#ED8024" />}
-        rotation="30deg"
-        right="-250px"
-        bottom="0px"
-      />
+          <MarginDecoration
+            element={<MailIcon size="140px" backgroundColor="#EB3D38" />}
+            rotation="-20deg"
+            right="-100px"
+            top="-180px"
+          />
+
+          <MarginDecoration
+            element={
+              <Pill
+                width="400px"
+                height="130px"
+                backgroundColor="rgba(110, 54, 31, 1)"
+              />
+            }
+            rotation="25deg"
+            right="-450px"
+            top="80px"
+          />
+
+          <MarginDecoration
+            element={<MailIcon size="175px" backgroundColor="#ED8024" />}
+            rotation="30deg"
+            right="-250px"
+            bottom="0px"
+          />
+        </>
+      ) : null}
     </div>
   );
 }

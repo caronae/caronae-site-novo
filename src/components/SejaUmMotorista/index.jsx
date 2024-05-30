@@ -39,7 +39,7 @@ const Cards = () => {
 const Content = () => {
   return (
     <div className={ styles.content }>
-      <h1>Viage com mais vantagens</h1>
+      <h1>Viaje com mais vantagens</h1>
       <h2>Seja um motorista ou passageiro do Caronaê!</h2>
       <p>
            Se você é motorista, pode economizar dinheiro dividindo os custos

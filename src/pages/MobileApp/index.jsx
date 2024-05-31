@@ -1,3 +1,4 @@
+import ComoOAppFunciona from '../../components/ComoOAppFunciona';
 import Navbar from '../../components/Navbar';
 import SejaUmMotorista from '../../components/SejaUmMotorista';
 import VaDeCaronae from '../../components/VaDeCaronae';
@@ -8,6 +9,7 @@ const MobileApp = () => {
     <Navbar />
     <SejaUmMotorista />
     <VaDeCaronae />
+    <ComoOAppFunciona />
     </>
   );
 };

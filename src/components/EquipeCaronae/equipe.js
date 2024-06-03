@@ -1,26 +1,45 @@
-const equipe = [
+import AnaLuiza from '../../assets/Ana_Luiza.png';
+import BrenoKern from '../../assets/breno-perfil.jpeg';
+import CarlosEduardo from '../../assets/Carlos_Eduardo.png';
+import FernandoGiongo from '../../assets/Fernando_Giongo.png';
+import fotoUsuario from '../../assets/foto-usuario.svg';
+import GabrielaFreitas from '../../assets/Gabriela_Freitas.png';
+import IagoRafael from '../../assets/Iago_Rafael.png';
+import JoaoCavalcante from '../../assets/Joao_Cavalcante.png';
+import KevinSena from '../../assets/Kevin_Sena.png';
+import LeonardoMoreira from '../../assets/Leonardo_Moreira.png';
+import LeticiaJandres from '../../assets/Leticia_Jandres.png';
+import LucasTsai from '../../assets/Lucas_Tsai.png';
+import LuigiRangel from '../../assets/Luigi_Rangel.png';
+import MellaniePereira from '../../assets/Mellanie_Pereira.png';
+import MiguelFernandes from '../../assets/Miguel_Fernandes.png';
+import NataliaMathias from '../../assets/Natalia_Mathias.png';
+import RenataNovoa from '../../assets/Renata_Novoa.png';
+import VitorLucio from '../../assets/Vitor_Lucio.png';
+
+export default [
     {
       id: '1',
-      nome: 'Maria Luiza Machado Campos',
-      foto: 'team-mluiza.jpeg',
+      nome: 'Maria Luiza Machado',
+      foto: fotoUsuario,
       cargo: 'Professora IC/UFRJ',
       curriculo: 'http://lattes.cnpq.br/0659658820912418',
       linkedin: null,
-      funcao: 'Coordenação'
+      funcao: 'Gestão'
     },
     {
       id: '2',
       nome: 'Nathan Andrade',
-      foto: 'team-na.jpg',
+      foto: fotoUsuario,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/nathanandrade/',
-      funcao: 'Gestão e Desenvolvimento'
+      funcao: 'Desenvolvimento'
     },
     {
       id: '3',
       nome: 'Breno Kern',
-      foto: 'team-breno.png',
+      foto: BrenoKern,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/breno-kern-43a402235/',
@@ -29,7 +48,7 @@ const equipe = [
     {
       id: '4',
       nome: 'Fernando Giongo',
-      foto: 'team-fernando.png',
+      foto: FernandoGiongo,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/fernandogiongo',
@@ -38,7 +57,7 @@ const equipe = [
     {
       id: '5',
       nome: 'Gabriela Freitas',
-      foto: 'team-gabi.png',
+      foto: GabrielaFreitas,
       cargo: 'Graduanda em Licenciatura em Expressão Gráfica',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/gabriela-freitas-b60968237/',
@@ -47,7 +66,7 @@ const equipe = [
     {
       id: '6',
       nome: 'Henrique Lima',
-      foto: 'team-avatar.png',
+      foto: fotoUsuario,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: null,
@@ -55,8 +74,8 @@ const equipe = [
     },
     {
       id: '7',
-      nome: 'Iago Rafael Lucas Martins',
-      foto: 'team-iago.png',
+      nome: 'Iago Rafael',
+      foto: IagoRafael,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/iagorafaellm/',
@@ -65,7 +84,7 @@ const equipe = [
     {
       id: '8',
       nome: 'João Pedro Cavalcante',
-      foto: 'team-jpc.png',
+      foto: JoaoCavalcante,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-silva-8277b31bb/',
@@ -74,7 +93,7 @@ const equipe = [
     {
       id: '9',
       nome: 'Leonardo Moreira',
-      foto: 'team-leo.png',
+      foto: LeonardoMoreira,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/leonardo-moreira-740432123/',
@@ -83,8 +102,8 @@ const equipe = [
     {
       id: '10',
       nome: 'Letícia Jandres',
-      foto: 'team-let.png',
-      cargo: 'Graduanda em Comunicação Visual Design',
+      foto: LeticiaJandres,
+      cargo: 'Graduanda em Comunicação Visual',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/let%C3%ADcia-jandres-b49766225/',
       funcao: 'Design'
@@ -92,7 +111,7 @@ const equipe = [
     {
       id: '11',
       nome: 'Lucas Tsai',
-      foto: 'team-tsai.png',
+      foto: LucasTsai,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/lucas-tsai-tong-shin/',
@@ -101,7 +120,7 @@ const equipe = [
     {
       id: '12',
       nome: 'Mellanie Pereira',
-      foto: 'team-mel.png',
+      foto: MellaniePereira,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: null,
@@ -110,8 +129,8 @@ const equipe = [
     {
       id: '13',
       nome: 'Natália Mathias',
-      foto: 'team-nat.png',
-      cargo: 'Graduanda em Comunicação Visual Design',
+      foto: NataliaMathias,
+      cargo: 'Graduanda em Comunicação Visual',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/natalia-mathias91',
       funcao: 'Design'
@@ -119,7 +138,7 @@ const equipe = [
     {
       id: '14',
       nome: 'Pedro Henrique',
-      foto: 'team-avatar.png',
+      foto: fotoUsuario,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/pedro-henrique-dos-santos-porto-a85593124/',
@@ -128,8 +147,8 @@ const equipe = [
     {
       id: '15',
       nome: 'Renata Novoa',
-      foto: 'team-re.png',
-      cargo: 'Graduanda em Comunicação Visual Design',
+      foto: RenataNovoa,
+      cargo: 'Graduanda em Comunicação Visual',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/renata-novoa/',
       funcao: 'Design'
@@ -137,12 +156,55 @@ const equipe = [
     {
       id: '16',
       nome: 'Vitor Lucio Giorgio',
-      foto: 'team-vitor.png',
+      foto: VitorLucio,
       cargo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/vitor-lucio-giorgio/',
       funcao: 'Desenvolvimento'
+    },
+    {
+      id: '17',
+      nome: 'Kevin Sena',
+      foto: KevinSena,
+      cargo: 'Graduando em Ciência da Computação',
+      curriculo: null,
+      linkedin: 'https://www.linkedin.com/in/kevinsna/',
+      funcao: 'Desenvolvimento'
+    },
+    {
+      id: '18',
+      nome: 'Luigi Rangel',
+      foto: LuigiRangel,
+      cargo: 'Graduando em Ciência da Computação',
+      curriculo: null,
+      linkedin: 'https://www.linkedin.com/in/luigirangel/',
+      funcao: 'Dados'
+    },
+    {
+      id: '19',
+      nome: 'Miguel Fernandes',
+      foto: MiguelFernandes,
+      cargo: 'Gestão Pública para o Desenvolvimento Econômico e Social',
+      curriculo: null,
+      linkedin: 'https://www.linkedin.com/in/miguel-fernandes-machado/',
+      funcao: 'Dados'
+    },
+    {
+      id: '20',
+      nome: 'Ana Luiza',
+      foto: AnaLuiza,
+      cargo: 'Gestão Pública para o Desenvolvimento Econômico e Social',
+      curriculo: null,
+      linkedin: null,
+      funcao: 'Dados'
+    },
+    {
+      id: '21',
+      nome: 'Carlos Eduardo',
+      foto: CarlosEduardo,
+      cargo: 'Graduando em Ciência da Computação',
+      curriculo: null,
+      linkedin: 'https://www.linkedin.com/in/carlos-eduardo-de-schuller-banjar-147103214/',
+      funcao: 'Desenvolvimento'
     }
   ];
-
-  export default equipe;

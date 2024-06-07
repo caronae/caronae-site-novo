@@ -8,7 +8,7 @@
     margin-bottom: 72px;
 
 }
-.cargos{
+.titulos{
     display: flex;
     flex-direction: column;
     gap: 20px;

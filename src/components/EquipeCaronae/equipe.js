@@ -22,7 +22,7 @@ export default [
       id: '1',
       nome: 'Maria Luiza Machado',
       foto: fotoUsuario,
-      cargo: 'Professora IC/UFRJ',
+      titulo: 'Professora IC/UFRJ',
       curriculo: 'http://lattes.cnpq.br/0659658820912418',
       linkedin: null,
       funcao: 'Gestão'
@@ -31,7 +31,7 @@ export default [
       id: '2',
       nome: 'Nathan Andrade',
       foto: fotoUsuario,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/nathanandrade/',
       funcao: 'Desenvolvimento'
@@ -40,7 +40,7 @@ export default [
       id: '3',
       nome: 'Breno Kern',
       foto: BrenoKern,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/breno-kern-43a402235/',
       funcao: 'Desenvolvimento'
@@ -49,7 +49,7 @@ export default [
       id: '4',
       nome: 'Fernando Giongo',
       foto: FernandoGiongo,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/fernandogiongo',
       funcao: 'Desenvolvimento'
@@ -58,7 +58,7 @@ export default [
       id: '5',
       nome: 'Gabriela Freitas',
       foto: GabrielaFreitas,
-      cargo: 'Graduanda em Licenciatura em Expressão Gráfica',
+      titulo: 'Graduanda em Licenciatura em Expressão Gráfica',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/gabriela-freitas-b60968237/',
       funcao: 'Design'
@@ -67,7 +67,7 @@ export default [
       id: '6',
       nome: 'Henrique Lima',
       foto: fotoUsuario,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: null,
       funcao: 'Dados'
@@ -76,7 +76,7 @@ export default [
       id: '7',
       nome: 'Iago Rafael',
       foto: IagoRafael,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/iagorafaellm/',
       funcao: 'Design'
@@ -85,7 +85,7 @@ export default [
       id: '8',
       nome: 'João Pedro Cavalcante',
       foto: JoaoCavalcante,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-silva-8277b31bb/',
       funcao: 'Desenvolvimento'
@@ -94,7 +94,7 @@ export default [
       id: '9',
       nome: 'Leonardo Moreira',
       foto: LeonardoMoreira,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/leonardo-moreira-740432123/',
       funcao: 'Desenvolvimento'
@@ -103,7 +103,7 @@ export default [
       id: '10',
       nome: 'Letícia Jandres',
       foto: LeticiaJandres,
-      cargo: 'Graduanda em Comunicação Visual',
+      titulo: 'Graduanda em Comunicação Visual',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/let%C3%ADcia-jandres-b49766225/',
       funcao: 'Design'
@@ -112,7 +112,7 @@ export default [
       id: '11',
       nome: 'Lucas Tsai',
       foto: LucasTsai,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/lucas-tsai-tong-shin/',
       funcao: 'Desenvolvimento'
@@ -121,7 +121,7 @@ export default [
       id: '12',
       nome: 'Mellanie Pereira',
       foto: MellaniePereira,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: null,
       funcao: 'Desenvolvimento'
@@ -130,7 +130,7 @@ export default [
       id: '13',
       nome: 'Natália Mathias',
       foto: NataliaMathias,
-      cargo: 'Graduanda em Comunicação Visual',
+      titulo: 'Graduanda em Comunicação Visual',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/natalia-mathias91',
       funcao: 'Design'
@@ -139,7 +139,7 @@ export default [
       id: '14',
       nome: 'Pedro Henrique',
       foto: fotoUsuario,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/pedro-henrique-dos-santos-porto-a85593124/',
       funcao: 'Desenvolvimento'
@@ -148,7 +148,7 @@ export default [
       id: '15',
       nome: 'Renata Novoa',
       foto: RenataNovoa,
-      cargo: 'Graduanda em Comunicação Visual',
+      titulo: 'Graduanda em Comunicação Visual',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/renata-novoa/',
       funcao: 'Design'
@@ -157,7 +157,7 @@ export default [
       id: '16',
       nome: 'Vitor Lucio Giorgio',
       foto: VitorLucio,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'http://linkedin.com/in/vitor-lucio-giorgio/',
       funcao: 'Desenvolvimento'
@@ -166,7 +166,7 @@ export default [
       id: '17',
       nome: 'Kevin Sena',
       foto: KevinSena,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/kevinsna/',
       funcao: 'Desenvolvimento'
@@ -175,7 +175,7 @@ export default [
       id: '18',
       nome: 'Luigi Rangel',
       foto: LuigiRangel,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/luigirangel/',
       funcao: 'Dados'
@@ -184,7 +184,7 @@ export default [
       id: '19',
       nome: 'Miguel Fernandes',
       foto: MiguelFernandes,
-      cargo: 'Gestão Pública para o Desenvolvimento Econômico e Social',
+      titulo: 'Gestão Pública para o Desenvolvimento Econômico e Social',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/miguel-fernandes-machado/',
       funcao: 'Dados'
@@ -193,7 +193,7 @@ export default [
       id: '20',
       nome: 'Ana Luiza',
       foto: AnaLuiza,
-      cargo: 'Gestão Pública para o Desenvolvimento Econômico e Social',
+      titulo: 'Gestão Pública para o Desenvolvimento Econômico e Social',
       curriculo: null,
       linkedin: null,
       funcao: 'Dados'
@@ -202,7 +202,7 @@ export default [
       id: '21',
       nome: 'Carlos Eduardo',
       foto: CarlosEduardo,
-      cargo: 'Graduando em Ciência da Computação',
+      titulo: 'Graduando em Ciência da Computação',
       curriculo: null,
       linkedin: 'https://www.linkedin.com/in/carlos-eduardo-de-schuller-banjar-147103214/',
       funcao: 'Desenvolvimento'

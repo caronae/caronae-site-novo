@@ -39,7 +39,7 @@ function EquipeCaronae () {
 
         <div>
             <h1 className="title">Equipe Caronaê</h1>
-            <div className="cargos">
+            <div className="titulos">
                 {
                     dadosChip.map(chip =>
                         <div key={chip.name}>
@@ -79,7 +79,7 @@ function EquipeCaronae () {
                                                         alt="foto-usuario"
                                                     />
                                                     <h3>{profile.nome}</h3>
-                                                    <p>{profile.cargo} | {profile.funcao}</p>
+                                                    <p>{profile.titulo} | {profile.funcao}</p>
                                                     <a href={profile.linkedin === null ? profile.curriculo : [profile.linkedin, curriculo = 'Linkedin']}>{curriculo}<img className="link_chain" src={link}/> </a>
                                                 </div>
                                             </div>

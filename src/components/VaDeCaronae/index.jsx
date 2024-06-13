@@ -1,13 +1,12 @@
 import appleLogo from '../../assets/apple_logo.svg';
 import iphoneFront from '../../assets/iphone_front.png';
 import iphoneSide from '../../assets/iphone_side.png';
-import jeepIcon from '../../assets/jeep-icon.svg';
-import leafIcon from '../../assets/leaf_white.svg';
-import peopleIcon from '../../assets/people_blue.svg';
+import jeepIconImg from '../../assets/jeep-icon.svg';
+import leafIconImg from '../../assets/leaf_white.svg';
+import peopleIconImg from '../../assets/people_blue.svg';
 import playStoreLogo from '../../assets/play_store_logo.svg';
-import shieldIcon from '../../assets/shield_white.svg';
-import windIcon from '../../assets/wind-icon.svg';
-import { colors } from './colors';
+import shieldIconImg from '../../assets/shield_white.svg';
+import windIconImg from '../../assets/wind-icon.svg';
 import styles from './VaDeCaronae.module.css';
 
 const URLCaronaeAppleAppStore = 'https://www.apple.com/app-store/';
@@ -19,28 +18,12 @@ export default function VaDeCaronae () {
       <Headings />
       <BackgroundCircles />
       <Roads />
-      <Icon src={ peopleIcon }
-            backgroundColor={ colors.peopleIconBackground }
-            imgSize="40px"
-            width="140px"
-            top="80px"
-            left="750px" />
-      <Icon src={ shieldIcon }
-            backgroundColor={ colors.shieldIconBackground }
-            imgSize="27px"
-            top="400px"
-            left="760px" />
-      <Icon src={ leafIcon }
-            backgroundColor={ colors.leafIconBackground }
-            top="110px"
-            left="1180px" />
+      <PeopleIcon />
+      <ShieldIcon />
+      <LeafIcon />
       <IphoneFront />
       <IphoneSide />
-      <DoubleIcon src={ [windIcon, jeepIcon] }
-                  backgroundColor={ colors.jeepIconBackground }
-                  width="180px"
-                  top="460px"
-                  left="1080px" />
+      <CarIcon />
     </div>
   );
 }
@@ -114,40 +97,35 @@ const HorizontalRoad = () => {
   );
 };
 
-const Icon = (props) => {
+const PeopleIcon = () => {
   return (
-    <div style={{ position: 'absolute',
-                  top: props.top,
-                  left: props.left,
-                  display: 'flex',
-                  backgroundColor: props.backgroundColor,
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  height: '90px',
-                  width: props.width,
-                  minWidth: '90px',
-                  borderRadius: '90px' }} >
-      <img style={{ width: props.imgSize }} src={ props.src } />
+    <div className={ styles.peopleIcon }>
+      <img src={ peopleIconImg } />
     </div>
   );
 };
 
-const DoubleIcon = (props) => {
+const ShieldIcon = () => {
   return (
-    <div style={{ position: 'absolute',
-                  display: 'flex',
-                  top: props.top,
-                  left: props.left,
-                  backgroundColor: props.backgroundColor,
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  height: '90px',
-                  width: 'fit-content',
-                  minWidth: props.width,
-                  padding: '0 40px',
-                  borderRadius: '90px' }} >
-      <img style={{ width: props.imgSize }} src={ props.src[0] } />
-      <img style={{ width: props.imgSize }} src={ props.src[1] } />
+    <div className={ styles.shieldIcon }>
+      <img src={ shieldIconImg } />
+    </div>
+  );
+};
+
+const LeafIcon = () => {
+  return (
+    <div className={ styles.leafIcon }>
+      <img src={ leafIconImg } />
+    </div>
+  );
+};
+
+const CarIcon = () => {
+  return (
+    <div className={ styles.carIcon }>
+      <img src={ windIconImg } />
+      <img src={ jeepIconImg } />
     </div>
   );
 };

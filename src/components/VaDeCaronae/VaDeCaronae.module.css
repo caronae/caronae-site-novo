@@ -155,3 +155,71 @@
     left: 1050px;
     top: 160px;
 }
+
+.peopleIcon {
+    position: absolute;
+    top: 80px;
+    left: 750px;
+    display: flex;
+    background-color: rgb(235, 114, 172);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 140px;
+    min-width: 90px;
+    border-radius: 90px;
+}
+
+.peopleIcon img {
+    width: 40px;
+}
+
+.shieldIcon {
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    display: flex;
+    background-color: rgb(110, 54, 31);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    min-width: 90px;
+    border-radius: 90px;
+}
+
+.shiledIcon img {
+    width: 27px;
+}
+
+.leafIcon {
+    position: absolute;
+    top: 110px;
+    left: 1180px;
+    display: flex;
+    background-color: rgb(23, 178, 112);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    min-width: 90px;
+    border-radius: 90px;
+}
+
+.leafIcon img {
+    width: 27px;
+}
+
+.carIcon {
+    position: absolute;
+    top: 460px;
+    left: 1080px;
+    display: flex;
+    background-color: rgb(237, 128, 36);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 180px;
+    min-width: 90px;
+    border-radius: 90px;
+}

@@ -7,14 +7,15 @@ import peopleIcon from '../../assets/people_blue.svg';
 import playStoreLogo from '../../assets/play_store_logo.svg';
 import shieldIcon from '../../assets/shield_white.svg';
 import windIcon from '../../assets/wind-icon.svg';
-import { colors, styles } from './styles';
+import { colors } from './colors';
+import styles from './VaDeCaronae.module.css';
 
 const URLCaronaeAppleAppStore = 'https://www.apple.com/app-store/';
 const URLCaronaeGooglePlayStore = 'https://play.google.com/';
 
 export default function VaDeCaronae () {
   return (
-    <div style={ styles.vaDeCaronae }>
+    <div className={ styles.vaDeCaronae }>
       <Headings />
       <BackgroundCircles />
       <Roads />
@@ -46,9 +47,9 @@ export default function VaDeCaronae () {
 
 const Headings = () => {
   return (
-    <div style={ styles.heading }>
-      <h2 style={ styles.h2 }>Juntos vamos mais longe,</h2>
-      <h1 style={ styles.h1 }>Vá de Caronaê!</h1>
+    <div className={ styles.heading }>
+      <h2>Juntos vamos mais longe,</h2>
+      <h1>Vá de Caronaê!</h1>
     </div>
   );
 };
@@ -56,8 +57,8 @@ const Headings = () => {
 const BackgroundCircles = () => {
   return (
     <>
-      <div style={ styles.circleOuter }>
-        <div style={ styles.circleInner } />
+      <div className={ styles.circleOuter }>
+        <div className={ styles.circleInner } />
       </div>
     </>
   );
@@ -65,11 +66,11 @@ const BackgroundCircles = () => {
 
 const StoreButton = (props) => {
   return (
-    <a style={ styles.storeButton } href={ props.href }>
+    <a className={ styles.storeButton } href={ props.href }>
       <img src={ props.storeLogo } />
       <div>
-        <p style={ styles.buttonSmallText }>Disponível na</p>
-        <p style={ styles.buttonLargeText }>{ props.storeName }</p>
+        <p className={ styles.buttonSmallText }>Disponível na</p>
+        <p className={ styles.buttonLargeText }>{ props.storeName }</p>
       </div>
     </a>
   );
@@ -77,7 +78,7 @@ const StoreButton = (props) => {
 
 const Roads = () => {
   return (
-    <div style={ styles.roads }>
+    <div className={ styles.roads }>
       <VerticalRoad />
       <div style={{ display: 'flex', gap: '40px', position: 'relative', left: '-60px' }} >
         <StoreButton storeName="App Store" storeLogo={ appleLogo }
@@ -94,21 +95,21 @@ const Roads = () => {
 
 const VerticalRoad = () => {
   return (
-    <div style={ styles.verticalRoad } >
-      <div style={ styles.verticalDash } />
-      <div style={ styles.verticalDash } />
-      <div style={ styles.verticalRoadBackground } />
+    <div className={ styles.verticalRoad } >
+      <div className={ styles.verticalDash } />
+      <div className={ styles.verticalDash } />
+      <div className={ styles.verticalRoadBackground } />
     </div>
   );
 };
 
 const HorizontalRoad = () => {
   return (
-    <div style={ styles.horizontalRoad } >
-      <div style={ styles.horizontalDash } />
-      <div style={ styles.horizontalDash } />
-      <div style={ styles.horizontalDash } />
-      <div style={ styles.horizontalDash } />
+    <div className={ styles.horizontalRoad } >
+      <div className={ styles.horizontalDash } />
+      <div className={ styles.horizontalDash } />
+      <div className={ styles.horizontalDash } />
+      <div className={ styles.horizontalDash } />
     </div>
   );
 };
@@ -153,7 +154,7 @@ const DoubleIcon = (props) => {
 
 const IphoneFront = () => {
   return (
-    <div style={ styles.iphoneFront } >
+    <div className={ styles.iphoneFront } >
       <img src={ iphoneFront } />
     </div>
   );
@@ -161,7 +162,7 @@ const IphoneFront = () => {
 
 const IphoneSide = () => {
   return (
-    <div style={ styles.iphoneSide } >
+    <div className={ styles.iphoneSide } >
       <img src={ iphoneSide } />
     </div>
   );

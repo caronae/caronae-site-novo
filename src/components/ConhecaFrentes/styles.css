@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.conhecaFrentes{
+    width: 1159px;
+    height: 532px;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.tituloPrincipal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.texto{
+    margin-right: 30px;
+    width: 380px;
+    height: 194px;
+}
+
+.textoPrincipal_bluebox{
+    width: 1157px;
+    height: 250px;
+    display: flex;
+}
+
+.textoPrincipal > p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.caixaAzul{
+    display: flex;
+    width: 749px;
+    height: 250px;
+    background-color:#2B388A ;
+    border-radius: 25px;
+}
+
+.textoAzul{
+    width: 358px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 26px;
+}
+
+.textoAzul > p{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.textoAzul > h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.redBox_greenBox{
+    width: 1159px;
+    height: 250px;
+    display: flex;
+    margin-top: 32px;
+}
+
+.redBox{
+    width: 663px;
+    height: 250px;
+    background-color: #EB3D38;
+    border-radius: 25px;
+    display: flex;
+}
+
+.textoVermelho{
+    width: 310px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 26px;
+}
+.textoVermelho > h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.textoVermelho> p{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.greenBox{
+    width: 465px;
+    height: 250px;
+    margin-left: 30px;
+    background-color: #17B270;
+    border-radius: 25px;
+    display: flex;
+}
+
+.textoVerde{
+    width: 233px;
+    height: 151px;
+    margin-top: 40px;
+    margin-left: 26px;
+
+}
+
+.textoVerde > h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.textoVerde > p{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.fotoVerde{
+    border-bottom-right-radius: 25px;
+}

@@ -1,9 +1,9 @@
 import './styles.css';
 import leaf from '../../assets/leaf_blue.png';
-import shield from '../../assets/shield.png';
-import target from '../../assets/target.png';
 import mail from '../../assets/mail.png';
 import jeep from '../../assets/Jeep.png';
+import target from '../../assets/target.png';
+import shield from '../../assets/shield.png';
 import users from '../../assets/users_black.png';
 
 function IconForm(props) {
@@ -16,10 +16,6 @@ function IconForm(props) {
     margin,
     backgroundColor,
     shadow,
-    wide,
-    big,
-    small,
-    medium,
     left,
     right,
     top,
@@ -45,7 +41,6 @@ function IconForm(props) {
         top: top,
         bottom: bottom,
         borderRadius: '200px',
-        //padding: wide ? '12px 48px' : big ? '32px' : small ? '10px' : medium ? '28px' : '24px',
         padding: padding,
         boxShadow: `14px 0 0 ${shadow}`,
         transform: flip? `rotate(${rotation}deg) rotatey(180deg)` : `rotate(${rotation}deg)`

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.2dc9c1b6.css",
-    "main.js": "/caronae-site-novo/static/js/main.cbe3bd88.js",
+    "main.css": "/caronae-site-novo/static/css/main.2e7e27b2.css",
+    "main.js": "/caronae-site-novo/static/js/main.fa1a4b50.js",
     "static/media/Luigi_Rangel.png": "/caronae-site-novo/static/media/Luigi_Rangel.fdd973a97a88c7bfe9ab.png",
     "static/media/amigos.jpeg": "/caronae-site-novo/static/media/amigos.775269f0a4262554a12c.jpeg",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
@@ -62,11 +62,11 @@
     "static/media/leaf_white.svg": "/caronae-site-novo/static/media/leaf_white.4059fe6171a597c9c142b60f8246104d.svg",
     "static/media/shield_white.svg": "/caronae-site-novo/static/media/shield_white.f75d0855e90290c6518bb38700753778.svg",
     "static/media/svg_seguranca.svg": "/caronae-site-novo/static/media/svg_seguranca.09db31c718a6b64ad451e85ba1c8e0d0.svg",
-    "main.2dc9c1b6.css.map": "/caronae-site-novo/static/css/main.2dc9c1b6.css.map",
-    "main.cbe3bd88.js.map": "/caronae-site-novo/static/js/main.cbe3bd88.js.map"
+    "main.2e7e27b2.css.map": "/caronae-site-novo/static/css/main.2e7e27b2.css.map",
+    "main.fa1a4b50.js.map": "/caronae-site-novo/static/js/main.fa1a4b50.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dc9c1b6.css",
-    "static/js/main.cbe3bd88.js"
+    "static/css/main.2e7e27b2.css",
+    "static/js/main.fa1a4b50.js"
   ]
 }

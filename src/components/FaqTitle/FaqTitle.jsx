@@ -1,9 +1,9 @@
 import './styles.css';
+import jeep from '../../assets/Jeep.png';
 import leaf from '../../assets/leaf_blue.png';
 import mail from '../../assets/mail.png';
-import jeep from '../../assets/Jeep.png';
-import target from '../../assets/target.png';
 import shield from '../../assets/shield.png';
+import target from '../../assets/target.png';
 import users from '../../assets/users_black.png';
 
 function IconForm(props) {
@@ -50,13 +50,12 @@ function IconForm(props) {
 }
 
 const FAQTitle = () => {
-
   return (
     <div>
       <div className="title-section">
         <h1 className="title">Perguntas frequentes</h1>
         <p className="subtext">
-          Tem alguma dúvida? Estamos aqui para ajudar.            
+          Tem alguma dúvida? Estamos aqui para ajudar.
         </p>
       </div>
       <IconForm
@@ -82,7 +81,7 @@ const FAQTitle = () => {
         rotation="10"
         widht="160px"
         height="80px"
-        padding='20px 40px'
+        padding="20px 40px"
         backgroundColor="#ed8024"
         flip
       />
@@ -109,7 +108,7 @@ const FAQTitle = () => {
         rotation="-10"
         widht="160px"
         height="80px"
-        padding='22px 48px'
+        padding="22px 48px"
         backgroundColor="#6e361f"
       />
     </div>

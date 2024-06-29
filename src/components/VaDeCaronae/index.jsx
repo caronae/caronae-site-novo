@@ -145,4 +145,3 @@ const IphoneSide = () => {
     </div>
   );
 };
-

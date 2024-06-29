@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1500px) {
+    .vaDeCaronae { scale: 60%; }
+}
+
+.vaDeCaronae {
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1370px;
+    height: 640px;
+    border-radius: 20px;
+    background-color: rgb(43, 56, 138);
+}
+
+.heading {
+    position: absolute;
+    top: 230px;
+    left: 65px;
+}
+
+.heading h1 {
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    color: rgb(254, 254, 254);
+    font-size: 60px;
+}
+
+.heading h2 {
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    color: rgb(254, 254, 254);
+    font-size: 32px;
+}
+
+.circleOuter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -30px;
+    left: 650px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: rgb(50, 64, 153);
+}
+
+.circleInner {
+    position: relative;
+    display: flex;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    background-color: rgb(62, 75, 154);
+}
+
+.storeButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.buttonSmallText {
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
+    font-family: Karla, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(254, 254, 254);
+}
+
+.buttonLargeText {
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(254, 254, 254);
+}
+
+.roads {
+    position: absolute;
+    top: 425px;
+    left: 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.verticalRoad {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: rgb(23, 23, 23);
+    width: 80px;
+    height: 250px;
+    border-radius: 20px 0 0 0;
+}
+
+.verticalDash {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 17px;
+    top: 60px;
+    height: 50px;
+    width: 6px;
+    border-radius: 6px;
+}
+
+.verticalRoadBackground {
+    position: absolute;
+    background-color: rgb(43, 56, 138);
+    top: 50px;
+    left: 40px;
+    border-radius: 20px 0 0 0;
+    width: 40px;
+    height: 200px;
+}
+
+.horizontalRoad {
+    position: relative;
+    display: flex;
+    gap: 35px;
+    background-color: rgb(23, 23, 23);
+    height: 50px;
+    width: 350px;
+    border-radius: 0 20px 20px 0;
+}
+
+.horizontalDash {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 17px;
+    top: 22px;
+    height: 6px;
+    width: 50px;
+    border-radius: 6px;
+}
+
+.iphoneFront {
+    position: absolute;
+    left: 825px;
+    top: 120px;
+}
+
+.iphoneSide {
+    position: absolute;
+    left: 1050px;
+    top: 160px;
+}
+
+.peopleIcon {
+    position: absolute;
+    top: 80px;
+    left: 750px;
+    display: flex;
+    background-color: rgb(235, 114, 172);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 140px;
+    min-width: 90px;
+    border-radius: 90px;
+}
+
+.peopleIcon img {
+    width: 40px;
+}
+
+.shieldIcon {
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    display: flex;
+    background-color: rgb(110, 54, 31);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    min-width: 90px;
+    border-radius: 90px;
+}
+
+.shiledIcon img {
+    width: 27px;
+}
+
+.leafIcon {
+    position: absolute;
+    top: 110px;
+    left: 1180px;
+    display: flex;
+    background-color: rgb(23, 178, 112);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    min-width: 90px;
+    border-radius: 90px;
+}
+
+.leafIcon img {
+    width: 27px;
+}
+
+.carIcon {
+    position: absolute;
+    top: 460px;
+    left: 1080px;
+    display: flex;
+    background-color: rgb(237, 128, 36);
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 180px;
+    min-width: 90px;
+    border-radius: 90px;
+}

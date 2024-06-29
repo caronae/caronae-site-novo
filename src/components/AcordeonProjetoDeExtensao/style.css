@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 20px;
     display: flex;
+    margin-top: -150px;
     flex-direction: column;
     gap: 24px;
   }
@@ -53,7 +54,7 @@
     font-weight: bold;
   }
 
-  .title {
+  .sub-title {
     font-family: Lato;
     font-size: 16px;
     font-weight: 700;

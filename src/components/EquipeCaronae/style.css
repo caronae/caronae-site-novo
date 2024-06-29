@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 72px;
+
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profiles{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    padding:20px;
+    padding-bottom: 20px;
+
+}
+.profileData{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    
+    
+}
+.profileData > h3{
+    white-space: nowrap;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.profileData > p{
+    padding-bottom: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.profileData > a{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #2B388A;
+}
+.link_chain{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}

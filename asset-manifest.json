@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.2e7e27b2.css",
-    "main.js": "/caronae-site-novo/static/js/main.fa1a4b50.js",
+    "main.css": "/caronae-site-novo/static/css/main.75c529d0.css",
+    "main.js": "/caronae-site-novo/static/js/main.c96a601c.js",
     "static/media/Luigi_Rangel.png": "/caronae-site-novo/static/media/Luigi_Rangel.fdd973a97a88c7bfe9ab.png",
     "static/media/amigos.jpeg": "/caronae-site-novo/static/media/amigos.775269f0a4262554a12c.jpeg",
     "static/media/falae-img.jpg": "/caronae-site-novo/static/media/falae-img.7d1cc8943b0658729956.jpg",
@@ -36,14 +36,11 @@
     "static/media/criancas-carro.png": "/caronae-site-novo/static/media/criancas-carro.bf77c5e0dc50fb68f24f.png",
     "static/media/Jeep.png": "/caronae-site-novo/static/media/Jeep.494b115d242d42ced757.png",
     "static/media/iphone_side.png": "/caronae-site-novo/static/media/iphone_side.d0cd21e41dfce6710f02.png",
-    "static/media/imagem-vermelho-comunicacao.png": "/caronae-site-novo/static/media/imagem-vermelho-comunicacao.2ee9fb93d0e2653ed31d.png",
     "static/media/icon-passageiro.svg": "/caronae-site-novo/static/media/icon-passageiro.00c46bfc35fedfeb4c261c338b9eb471.svg",
-    "static/media/imagem-azul-desenvolvimento.png": "/caronae-site-novo/static/media/imagem-azul-desenvolvimento.477a961d432570174114.png",
     "static/media/logo-ibts.png": "/caronae-site-novo/static/media/logo-ibts.f0d2d709eb8d57f5b010.png",
     "static/media/logo-fv.png": "/caronae-site-novo/static/media/logo-fv.5718deac8652e8145cff.png",
     "static/media/logo-ic.png": "/caronae-site-novo/static/media/logo-ic.09db182508459823667a.png",
     "static/media/logo-prefeitura.png": "/caronae-site-novo/static/media/logo-prefeitura.747b429fb13d185dbe7a.png",
-    "static/media/imagem-verde-dados.png": "/caronae-site-novo/static/media/imagem-verde-dados.533d7a620fddc19424ce.png",
     "static/media/logo-ufrj.png": "/caronae-site-novo/static/media/logo-ufrj.888ddabbac04cf0a8d9a.png",
     "static/media/icon-car.svg": "/caronae-site-novo/static/media/icon-car.0842bc1805c9d7eebc6f82694e659405.svg",
     "static/media/foto-usuario.svg": "/caronae-site-novo/static/media/foto-usuario.acdde185c758ad27f667396fa171d4da.svg",
@@ -62,11 +59,11 @@
     "static/media/leaf_white.svg": "/caronae-site-novo/static/media/leaf_white.4059fe6171a597c9c142b60f8246104d.svg",
     "static/media/shield_white.svg": "/caronae-site-novo/static/media/shield_white.f75d0855e90290c6518bb38700753778.svg",
     "static/media/svg_seguranca.svg": "/caronae-site-novo/static/media/svg_seguranca.09db31c718a6b64ad451e85ba1c8e0d0.svg",
-    "main.2e7e27b2.css.map": "/caronae-site-novo/static/css/main.2e7e27b2.css.map",
-    "main.fa1a4b50.js.map": "/caronae-site-novo/static/js/main.fa1a4b50.js.map"
+    "main.75c529d0.css.map": "/caronae-site-novo/static/css/main.75c529d0.css.map",
+    "main.c96a601c.js.map": "/caronae-site-novo/static/js/main.c96a601c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e7e27b2.css",
-    "static/js/main.fa1a4b50.js"
+    "static/css/main.75c529d0.css",
+    "static/js/main.c96a601c.js"
   ]
 }

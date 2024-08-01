@@ -1,10 +1,15 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 import falaeImg from '../../assets/falae-img.jpg';
+import useWindowDimensions from '../../hooks/UseWindowDimensions';
 import ImagePill from './../ImagePill';
 import MailIcon from './../MailIcon';
 
 const Falae = () => {
+
+  const { width } = useWindowDimensions();
+  const isGreatSize = (width >= 1100);
+
   return (
     <div className="falae-container">
       <div className="texts">
@@ -33,8 +38,8 @@ const Falae = () => {
       <div className="images">
         <div className="falae-rectangle"></div>
         <div className="falae-icon-img">
-          <MailIcon backgroundColor="#17b270" size="160px" />
-          <ImagePill width="345px" height="160px" src={falaeImg} />
+          <MailIcon backgroundColor="#17b270" size={isGreatSize ? '160px' : '105px'} />
+          <ImagePill width={isGreatSize ? '345px' : '230px'} height={isGreatSize ? '160px' : '100px'} src={falaeImg} />
         </div>
       </div>
     </div>

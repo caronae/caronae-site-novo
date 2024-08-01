@@ -6,7 +6,7 @@ const Button = props => {
     <div>
       <BasicButton
         textContent={props.textContent}
-        fontSize="25px"
+        fontSize={props.fontSize ?? '25px'}
         backgroundColor={props.backgroundColor}
         lineHeigth="30px"
         color={props.color}

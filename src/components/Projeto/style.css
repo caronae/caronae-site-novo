@@ -67,3 +67,63 @@
   text-decoration: none;
   font-weight: 800;
 }
+
+@media (max-width: 1200px) {
+  .projeto {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .projeto
+  .photo
+  img {
+    width: 65%;
+  }
+
+  .photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .numbers {
+    justify-content: center;
+  }
+
+  .numbers > p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 20px;
+  }
+  
+  .numbers > p > h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .text {
+    padding-left: 0px;
+    width: 320px;
+  }
+
+  .text > h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .btn-carona {
+    margin-left: 12px;
+  }
+  
+  .textButton {
+    font-size: 16px;
+    color: #2b388a;
+    padding-left: 60px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+}

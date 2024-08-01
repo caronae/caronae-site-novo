@@ -1,6 +1,7 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 import pontoImg from '../../assets/ponto-caronae.png';
+import useWindowDimensions from '../../hooks/UseWindowDimensions';
 
 export default function SolucoesDoCaronae() {
   return (
@@ -51,11 +52,14 @@ const PontoImg = () => {
 };
 
 const VideoEmbutido = ({ videoURL }) => {
+  const { width } = useWindowDimensions();
+  const isGreatSize = (width >= 1100);
+
   return (
     <div className="video-embutido">
       <iframe
         className="video"
-        width="560"
+        width={isGreatSize ? '560' : '300'}
         height="315"
         src={`${videoURL}?rel=0&modestbranding=1&controls=0`}
         title="Caronaê"

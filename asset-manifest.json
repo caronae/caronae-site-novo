@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/caronae-site-novo/static/css/main.00b787e8.css",
+    "main.css": "/caronae-site-novo/static/css/main.ff4754ac.css",
     "main.js": "/caronae-site-novo/static/js/main.41873b9c.js",
     "static/media/Luigi_Rangel.png": "/caronae-site-novo/static/media/Luigi_Rangel.fdd973a97a88c7bfe9ab.png",
     "static/media/amigos.jpeg": "/caronae-site-novo/static/media/amigos.775269f0a4262554a12c.jpeg",
@@ -59,11 +59,11 @@
     "static/media/leaf_white.svg": "/caronae-site-novo/static/media/leaf_white.4059fe6171a597c9c142b60f8246104d.svg",
     "static/media/shield_white.svg": "/caronae-site-novo/static/media/shield_white.f75d0855e90290c6518bb38700753778.svg",
     "static/media/svg_seguranca.svg": "/caronae-site-novo/static/media/svg_seguranca.09db31c718a6b64ad451e85ba1c8e0d0.svg",
-    "main.00b787e8.css.map": "/caronae-site-novo/static/css/main.00b787e8.css.map",
+    "main.ff4754ac.css.map": "/caronae-site-novo/static/css/main.ff4754ac.css.map",
     "main.41873b9c.js.map": "/caronae-site-novo/static/js/main.41873b9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.00b787e8.css",
+    "static/css/main.ff4754ac.css",
     "static/js/main.41873b9c.js"
   ]
 }

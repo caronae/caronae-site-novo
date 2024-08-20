@@ -1,229 +1,244 @@
-@media only screen and (max-width: 1500px) {
-    .vaDeCaronae { scale: 60%; }
+@media only screen and (max-width: 1600px) {
+  .vaDeCaronae {
+    font-size: 70%;
+  }
 }
 
 .vaDeCaronae {
-    position: relative;
-    overflow: hidden;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 1370px;
-    height: 640px;
-    border-radius: 20px;
-    background-color: rgb(43, 56, 138);
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 6.25em;
+  margin-bottom: 6.25em;
+  width: 86em;
+  height: 40em;
+  border-radius: 1.25em;
+  background-color: rgb(43, 56, 138);
 }
 
 .heading {
-    position: absolute;
-    top: 230px;
-    left: 65px;
+  position: absolute;
+  top: 14em;
+  left: 4em;
 }
 
 .heading h1 {
-    font-family: Karla, sans-serif;
-    font-weight: 700;
-    color: rgb(254, 254, 254);
-    font-size: 60px;
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  color: rgb(254, 254, 254);
+  font-size: 3.75em;
 }
 
 .heading h2 {
-    font-family: Karla, sans-serif;
-    font-weight: 700;
-    color: rgb(254, 254, 254);
-    font-size: 32px;
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  color: rgb(254, 254, 254);
+  font-size: 2em;
 }
 
 .circleOuter {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: -30px;
-    left: 650px;
-    width: 700px;
-    height: 700px;
-    border-radius: 50%;
-    background-color: rgb(50, 64, 153);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -2em;
+  left: 41em;
+  width: 44em;
+  height: 44em;
+  border-radius: 50%;
+  background-color: rgb(50, 64, 153);
 }
 
 .circleInner {
-    position: relative;
-    display: flex;
-    width: 560px;
-    height: 560px;
-    border-radius: 50%;
-    background-color: rgb(62, 75, 154);
+  position: relative;
+  display: flex;
+  width: 35em;
+  height: 35em;
+  border-radius: 50%;
+  background-color: rgb(62, 75, 154);
 }
 
 .storeButton {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(23, 23, 23);
-    width: 145px;
-    height: 50px;
-    border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 23, 23);
+  width: 9em;
+  height: 3.1em;
+  border-radius: 0.3em;
+}
+
+.storeButton img {
+  width: 1em;
 }
 
 .buttonSmallText {
-    margin: 0px;
-    padding: 0px;
-    line-height: 100%;
-    font-family: Karla, sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    color: rgb(254, 254, 254);
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  font-family: Karla, sans-serif;
+  font-size: .625em;
+  font-weight: 700;
+  color: rgb(254, 254, 254);
 }
 
 .buttonLargeText {
-    margin: 0px;
-    padding: 0px;
-    line-height: 100%;
-    letter-spacing: -0.5px;
-    font-family: Karla, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: rgb(254, 254, 254);
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  font-family: Karla, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(254, 254, 254);
 }
 
 .roads {
-    position: absolute;
-    top: 425px;
-    left: 60px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
+  position: absolute;
+  display: flex;
+  top: 26.5em;
+  left: 3.75em;
+  border-radius: 0.3em;
+  flex-direction: row;
 }
 
 .verticalRoad {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    background-color: rgb(23, 23, 23);
-    width: 80px;
-    height: 250px;
-    border-radius: 20px 0 0 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2em;
+  background-color: rgb(23, 23, 23);
+  width: 5em;
+  height: 16em;
+  border-radius: 1.25em 0 0 0;
 }
 
 .verticalDash {
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    left: 17px;
-    top: 60px;
-    height: 50px;
-    width: 6px;
-    border-radius: 6px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  left: 1em;
+  top: 3.75em;
+  height: 3.1em;
+  width: .375em;
+  border-radius: .375em;
 }
 
 .verticalRoadBackground {
-    position: absolute;
-    background-color: rgb(43, 56, 138);
-    top: 50px;
-    left: 40px;
-    border-radius: 20px 0 0 0;
-    width: 40px;
-    height: 200px;
+  position: absolute;
+  background-color: rgb(43, 56, 138);
+  top: 3.125em;
+  left: 2.5em;
+  border-radius: 1.25em 0 0 0;
+  width: 2.5em;
+  height: 12.5em;
 }
 
 .horizontalRoad {
-    position: relative;
-    display: flex;
-    gap: 35px;
-    background-color: rgb(23, 23, 23);
-    height: 50px;
-    width: 350px;
-    border-radius: 0 20px 20px 0;
+  position: relative;
+  display: flex;
+  gap: 2.2em;
+  background-color: rgb(23, 23, 23);
+  height: 3.125em;
+  width: 22em;
+  border-radius: 0 1.25em 1.25em 0;
 }
 
 .horizontalDash {
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    left: 17px;
-    top: 22px;
-    height: 6px;
-    width: 50px;
-    border-radius: 6px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  left: 1em;
+  top: 1.375em;
+  height: .375em;
+  width: 3.125em;
+  border-radius: .375em;
 }
 
 .iphoneFront {
-    position: absolute;
-    left: 825px;
-    top: 120px;
+  position: absolute;
+  left: 52em;
+  top: 7.5em;
 }
 
 .iphoneSide {
-    position: absolute;
-    left: 1050px;
-    top: 160px;
+  position: absolute;
+  left: 66em;
+  top: 10em;
+}
+
+.iphoneFront img {
+  width: 12.5em;
+}
+
+.iphoneSide img {
+  width: 9.5em;
 }
 
 .peopleIcon {
-    position: absolute;
-    top: 80px;
-    left: 750px;
-    display: flex;
-    background-color: rgb(235, 114, 172);
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    width: 140px;
-    min-width: 90px;
-    border-radius: 90px;
+  position: absolute;
+  top: 5em;
+  left: 47em;
+  display: flex;
+  background-color: rgb(235, 114, 172);
+  align-items: center;
+  justify-content: center;
+  height: 5.625em;
+  width: 8.75em;
+  min-width: 5.625em;
+  border-radius: 5.625em;
 }
 
 .peopleIcon img {
-    width: 40px;
+  width: 2.5em;
 }
 
 .shieldIcon {
-    position: absolute;
-    top: 400px;
-    left: 760px;
-    display: flex;
-    background-color: rgb(110, 54, 31);
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    width: 90px;
-    min-width: 90px;
-    border-radius: 90px;
+  position: absolute;
+  top: 25em;
+  left: 47.5em;
+  display: flex;
+  background-color: rgb(110, 54, 31);
+  align-items: center;
+  justify-content: center;
+  height: 5.625em;
+  width: 5.625em;
+  min-width: 5.625em;
+  border-radius: 5.625em;
 }
 
 .shiledIcon img {
-    width: 27px;
+  width: 1.7em;
 }
 
 .leafIcon {
-    position: absolute;
-    top: 110px;
-    left: 1180px;
-    display: flex;
-    background-color: rgb(23, 178, 112);
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    width: 90px;
-    min-width: 90px;
-    border-radius: 90px;
+  position: absolute;
+  top: 6.9em;
+  left: 74em;
+  display: flex;
+  background-color: rgb(23, 178, 112);
+  align-items: center;
+  justify-content: center;
+  height: 5.625em;
+  width: 5.625em;
+  min-width: 5.625em;
+  border-radius: 5.625em;
 }
 
 .leafIcon img {
-    width: 27px;
+  width: 1.7em;
 }
 
 .carIcon {
-    position: absolute;
-    top: 460px;
-    left: 1080px;
-    display: flex;
-    background-color: rgb(237, 128, 36);
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    width: 180px;
-    min-width: 90px;
-    border-radius: 90px;
+  position: absolute;
+  top: 28.75em;
+  left: 67.5em;
+  display: flex;
+  background-color: rgb(237, 128, 36);
+  align-items: center;
+  justify-content: center;
+  height: 5.625em;
+  width: 11.25em;
+  min-width: 5.625em;
+  border-radius: 5.625em;
 }

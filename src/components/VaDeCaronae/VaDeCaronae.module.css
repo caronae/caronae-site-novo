@@ -242,3 +242,7 @@
   min-width: 5.625em;
   border-radius: 5.625em;
 }
+
+.carIcon img {
+  width: 3em;
+}

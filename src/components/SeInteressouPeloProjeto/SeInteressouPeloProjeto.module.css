@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1600px) {
+  .seInteressouPeloProjeto {
+    font-size: 70%;
+  }
+}
+.seInteressouPeloProjeto {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 86em;
+  margin: 12em auto;
+  flex-direction: row;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 32.5000em;
+  gap: 3em;
+}
+
+.heading h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 2.2500em;
+}
+
+.heading span {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5000em;
+  width: 36em;
+}
+
+.form textarea {
+  font-size: 1em;
+  height: 6em;
+}
+
+.form input {
+  height: 4em;
+  font-size: 1em;
+}
+
+.form span {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5000em;
+  justify-content: space-between;
+}

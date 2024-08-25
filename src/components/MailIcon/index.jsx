@@ -4,7 +4,7 @@ import mailIcon from '../../assets/mail-icon.svg';
 
 export default function MailIcon({
   backgroundColor = '#17b270',
-  size = '160px'
+  size = '10.0000em'
 }) {
   const [imgSize] = useState(parseInt(size));
 
@@ -18,7 +18,7 @@ export default function MailIcon({
         borderRadius: '50%'
       }}
     >
-      <img src={mailIcon} style={{ width: `${imgSize * 0.5}px` }} />
+      <img src={mailIcon} style={{ width: `${imgSize * 0.5}em` }} />
     </div>
   );
 }

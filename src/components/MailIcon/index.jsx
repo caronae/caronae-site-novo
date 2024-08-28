@@ -18,7 +18,7 @@ export default function MailIcon({
         borderRadius: '50%'
       }}
     >
-      <img src={mailIcon} style={{ width: `${imgSize * 0.5}em` }} />
+      <img src={mailIcon} style={{ width: `${imgSize * 0.05}em` }} />
     </div>
   );
 }

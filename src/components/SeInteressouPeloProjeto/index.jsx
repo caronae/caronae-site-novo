@@ -136,7 +136,8 @@ function MarginDecoration(props) {
 
 const Pill = (props) => {
   return (
-      <div style={{ height: props.height, width: props.width, backgroundColor: props.backgroundColor,
-        borderRadius: props.height }} />
+    <div style={{ height: props.height, width: props.width, backgroundColor: props.backgroundColor,
+        borderRadius: props.height }}>
+    </div>
   );
 };

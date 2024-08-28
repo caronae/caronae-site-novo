@@ -1,35 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 768px) {
   .sejaUmMotorista {
-    font-size: 70%;
-  }
-}
-
-.sejaUmMotorista {
+    font-size: 40%;
     position: relative;
     margin: auto;
     display: flex;
     width: 86em;
     height: 30em;
     gap: 11em;
-}
+  }
 
-.cards {
+  .cards {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 1.5625em;
-}
+  }
 
-.cardsRow {
+  .cardsRow {
     position: relative;
     display: flex;
     flex-direction: row;
     gap: 1.5625em;
-}
+  }
 
-.iconCard {
+  .iconCard {
     position: relative;
     display: flex;
     align-items: center;
@@ -37,34 +33,34 @@
     width: 13.9375em;
     height: 13.9375em;
     border-radius: 1.1250em;
-}
+  }
 
-.iconCard img{
-  width: 5;
-}
+  .iconCard img{
+    width: 5;
+  }
 
-.imageTextCard {
+  .imageTextCard {
     position: relative;
     display: flex;
     align-items: center;
     width: 22.2500em;
     height: 13.9375em;
     border-radius: 1.1250em;
-}
+  }
 
-.imageTextCard h1, .textImageCard   h1 {
+  .imageTextCard h1, .textImageCard   h1 {
     font-family: Ubuntu, sans-serif;
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 1.5000em;
     margin: 1.2500em;
-}
+  }
 
-.imageTextCard img {
-  width: 11.8750em;
-}
+  .imageTextCard img {
+    width: 11.8750em;
+  }
 
-.textImageCard {
+  .textImageCard {
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -72,40 +68,40 @@
     width: 22.2500em;
     height: 13.9375em;
     border-radius: 1.1250em;
-}
+  }
 
-.textImageCard img {
-  width: 11.8750em;
-}
+  .textImageCard img {
+    width: 11.8750em;
+  }
 
-.content {
+  .content {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 30.0000em;
     margin: auto;
-}
+  }
 
-.content h1 {
+  .content h1 {
     position: relative;
     font-size: 2.0000em;
     font-family: Poppins, sans-serif;
     font-weight: 600;
     color: rgba(0,0,0,1);
     margin-bottom: 0.6250em;
-}
+  }
 
-.content h2 {
+  .content h2 {
     position: relative;
     font-size: 0.8750em;
     font-family: Poppins, sans-serif;
     font-weight: 600;
     color: rgba(70,70,70,1);
     margin-bottom: 1.8750em;
-}
+  }
 
-.content p {
+  .content p {
     position: relative;
     font-family: Lato, sans-serif;
     color: rgba(70,70,70,1);
@@ -115,9 +111,9 @@
     margin-bottom: 1.8750em;
     text-align: justify;
     text-justify: inter-word;
-}
+  }
 
-.sejaUmMotorista button {
+  .sejaUmMotorista button {
     position: relative;
     font-family: Karla, sans-serif;
     font-weight: 800;
@@ -128,8 +124,34 @@
     color: rgba(254, 254, 254, 1);
     box-shadow: 0.1875em 0.1875em 0.6250em 0.0000em rgba(0, 0, 0, 0.3);
     cursor: pointer;
+  }
+
+  .sejaUmMotorista button:active {
+    top: 0.1250em;
+  }
 }
 
-.sejaUmMotorista button:active {
-    top: 0.1250em;
+@media only screen and (min-width: 1080px) {
+  .sejaUmMotorista {
+    font-size: 56%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sejaUmMotorista {
+    font-size: 67%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sejaUmMotorista {
+    font-size: 67%;
+  }
+}
+
+ 
+@media only screen and (min-width: 1440px) {
+  .sejaUmMotorista {
+    font-size: 75%;
+  }
 }

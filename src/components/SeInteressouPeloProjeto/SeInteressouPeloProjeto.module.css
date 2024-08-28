@@ -1,56 +1,71 @@
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 768px) {
   .seInteressouPeloProjeto {
-    font-size: 70%;
+    font-size: 40%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 86em;
+    margin: 12em auto;
+    flex-direction: row;
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 32.5000em;
+    gap: 3em;
+  }
+
+  .heading h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 2.2500em;
+  }
+
+  .heading span {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5000em;
+    width: 36em;
+  }
+
+  .form textarea {
+    font-size: 1em;
+  }
+
+  .form input {
+    height: 4em;
+    font-size: 1em;
+  }
+
+  .form span {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5000em;
+    justify-content: space-between;
   }
 }
-.seInteressouPeloProjeto {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  width: 86em;
-  margin: 12em auto;
-  flex-direction: row;
-}
-.heading {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 32.5000em;
-  gap: 3em;
+
+@media only screen and (min-width: 1080px) {
+  .seInteressouPeloProjeto {
+    font-size: 56%;
+  }
 }
 
-.heading h1 {
-  font-family: Poppins, sans-serif;
-  font-size: 2.2500em;
+@media only screen and (min-width: 1280px) {
+  .seInteressouPeloProjeto {
+    font-size: 67%;
+  }
 }
-
-.heading span {
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-}
-
-.form {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5000em;
-  width: 36em;
-}
-
-.form textarea {
-  font-size: 1em;
-  height: 6em;
-}
-
-.form input {
-  height: 4em;
-  font-size: 1em;
-}
-
-.form span {
-  display: flex;
-  flex-direction: row;
-  gap: 2.5000em;
-  justify-content: space-between;
+ 
+@media only screen and (min-width: 1440px) {
+  .seInteressouPeloProjeto {
+    font-size: 75%;
+  }
 }

@@ -1,18 +1,18 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 0px) {
   .seInteressouPeloProjeto {
-    font-size: 40%;
+    font-size: 53%;
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 86em;
+    width: 72.1875em;
     margin: 12em auto;
     flex-direction: row;
   }
   .heading {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 32.5000em;
+    margin: 0 auto;
+    width: 32.5625em;
     gap: 3em;
   }
 
@@ -50,22 +50,34 @@
     gap: 2.5000em;
     justify-content: space-between;
   }
+
 }
 
+@media only screen and (min-width: 768px) {
+  .seInteressouPeloProjeto {
+    font-size: 53%;
+  }
+}
 @media only screen and (min-width: 1080px) {
   .seInteressouPeloProjeto {
-    font-size: 56%;
+    font-size: 75%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .seInteressouPeloProjeto {
-    font-size: 67%;
+    font-size: 89%;
   }
 }
  
 @media only screen and (min-width: 1440px) {
   .seInteressouPeloProjeto {
-    font-size: 75%;
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .seInteressouPeloProjeto {
+    font-size: 133%;
   }
 }

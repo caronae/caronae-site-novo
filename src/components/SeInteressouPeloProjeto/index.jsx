@@ -24,21 +24,21 @@ export default function SeInteressouPeloProjeto({
               />
             }
             rotation="-25deg"
-            left="-12em"
+            left="-19em"
             top="-8.7500em"
           />
 
           <MarginDecoration
             element={<MailIcon size="8.7500em" backgroundColor="#2B388A" />}
             rotation="30deg"
-            left="-6em"
+            left="-12em"
             top="6.2500em"
           />
 
           <MarginDecoration
             element={<MailIcon size="8.7500em" backgroundColor="#EB3D38" />}
             rotation="-20deg"
-            right="-3em"
+            right="-4em"
             top="-11.2500em"
           />
 
@@ -51,15 +51,15 @@ export default function SeInteressouPeloProjeto({
               />
             }
             rotation="25deg"
-            right="-22em"
+            right="-25em"
             top="4.0000em"
           />
 
           <MarginDecoration
             element={<MailIcon size="10.9375em" backgroundColor="#ED8024" />}
             rotation="30deg"
-            right="-9em"
-            bottom="-8em"
+            right="-13em"
+            bottom="0em"
           />
         </>
       ) : null}

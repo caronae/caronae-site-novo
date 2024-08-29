@@ -1,18 +1,6 @@
-/*
-@media only screen and (max-width: 100em) {
+@media only screen and (min-width: 0px) {
   .vaDeCaronae {
-    font-size: 70%;
-  }
-}
-@media only screen and (max-width: 62.5000em) {
-  .vaDeCaronae {
-    font-size: 40%;
-  }
-}
-*/
-@media only screen and (min-width: 768px) {
-  .vaDeCaronae {
-    font-size: 40%;
+    font-size: 44.5%;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -256,26 +244,32 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .vaDeCaronae {
+    font-size: 44.5%;
+  }
+}
+
 @media only screen and (min-width: 1080px) {
   .vaDeCaronae {
-    font-size: 56%;
+    font-size: 62.94%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .vaDeCaronae {
-    font-size: 67%;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .vaDeCaronae {
-    font-size: 67%;
-  }
+    font-size: 75%;
+ }
 }
  
 @media only screen and (min-width: 1440px) {
   .vaDeCaronae {
-    font-size: 75%;
+    font-size: 84%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .vaDeCaronae {
+    font-size: 111.7%;
   }
 }

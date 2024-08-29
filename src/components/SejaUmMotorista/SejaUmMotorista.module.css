@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 0px) {
   .sejaUmMotorista {
-    font-size: 40%;
+    font-size: 53%;
     position: relative;
     margin: auto;
     display: flex;
-    width: 86em;
+    width: 72.1875em;
     height: 30em;
-    gap: 11em;
+    gap: 7em;
   }
 
   .cards {
@@ -131,27 +131,32 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .sejaUmMotorista {
+    font-size: 53%;
+  }
+}
+
 @media only screen and (min-width: 1080px) {
   .sejaUmMotorista {
-    font-size: 56%;
+    font-size: 75%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .sejaUmMotorista {
-    font-size: 67%;
+    font-size: 89%;
   }
 }
-
-@media only screen and (min-width: 1280px) {
-  .sejaUmMotorista {
-    font-size: 67%;
-  }
-}
-
  
 @media only screen and (min-width: 1440px) {
   .sejaUmMotorista {
-    font-size: 75%;
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .sejaUmMotorista {
+    font-size: 133%;
   }
 }

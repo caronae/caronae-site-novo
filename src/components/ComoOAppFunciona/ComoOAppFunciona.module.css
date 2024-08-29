@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 0px) {
   .mainContainer {
-    font-size: 40%;
+    font-size: 53%;
     position: relative;
     display: flex;
     flex-direction: row;
     margin-right: auto;
     margin-left: auto;
-    width: 85.6250em;
+    width: 72.1875em;
     gap: 6.2500em;
     background-color: rgba(43, 56, 138, 1);
     border-radius: 1.2500em;
     margin-top: 6.2500em;
     margin-bottom: 6.2500em;
-    padding: 5.0000em;
+    padding: 4em 3em 4em 5em;
   }
 
   .mainContainer img {
     overflow: hidden;
-    width: 70em;
+    margin: auto;
+    width: 100em;
     height: 100%;
   }
 
@@ -28,6 +29,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: auto;
     gap: 3.1250em;
     counter-reset: cafCounter;
   }
@@ -88,20 +90,26 @@
 }
 
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 768px) {
   .mainContainer {
-    font-size: 56%;
+    font-size: 53%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .mainContainer {
-    font-size: 67%;
+    font-size: 89%;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .mainContainer {
-    font-size: 75%;
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .mainContainer {
+    font-size: 133%;
   }
 }

@@ -1,0 +1,121 @@
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  z-index: 2;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.nav-button:hover {
+  color: #ddd;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: row-reverse;
+}
+
+.carousel-image {
+  width: 50%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.carousel-description {
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 96px;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+.carousel-subtitle {
+  font-family: 'Karla', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.08px;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+.carousel-text {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.7px;
+  text-align: left;
+  margin: 0;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.footer-container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.footer-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 150px;
+}
+
+.blue-title {
+  color: #2B388A;
+}
+
+.red-title {
+  color: #EB3D38;
+}

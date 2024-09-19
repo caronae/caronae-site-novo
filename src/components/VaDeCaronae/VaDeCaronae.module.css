@@ -1,5 +1,6 @@
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 360px) {
   .vaDeCaronae {
+    font-size: 96%;
     position: relative;
     display: block;
     margin: 4em auto;
@@ -247,6 +248,10 @@
     width: 3.9094em;
     height: 100%;
   }
+}
+
+@media only screen and (min-width: 375px) {
+  font-size: 100%;
 }
 
 @media only screen and (min-width: 412px) {

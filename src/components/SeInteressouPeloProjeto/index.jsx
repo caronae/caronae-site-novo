@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import imagemAmigos from '../../assets/amigos.jpeg';
 import { TextInput, TextArea, SubmitButton } from '../Form';
 import ImagePill from '../ImagePill';
@@ -67,14 +68,44 @@ export default function SeInteressouPeloProjeto({
   );
 }
 
+function useWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowDimensions;
+}
+
 function SeInteressouHeading() {
+  const { width } = useWindowDimensions();
+  const isMobile = width < 768;
   return (
     <div className={ styles.heading }>
-      <h1>Se interessou pelo projeto? Nos envie uma mensagem</h1>
-      <span>
-        <ImagePill width="21.8750em" height="7.1875em" src={imagemAmigos} />
-        <MailIcon backgroundColor="#eb72ac" size="7.1875em" />
-      </span>
+      <h1>Se interessou pelo projeto?<br/>Nos envie uma mensagem</h1>
+      { isMobile ?
+        <span>
+          <ImagePill width="14em" height="5em" src={imagemAmigos} />
+          <MailIcon backgroundColor="#eb72ac" size="5em" />
+        </span>
+        :
+        <span>
+          <ImagePill width="21.8750em" height="7.1875em" src={imagemAmigos} />
+          <MailIcon backgroundColor="#eb72ac" size="7.1875em" />
+        </span>
+      }
     </div>
   );
 }
